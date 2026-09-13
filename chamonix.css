@@ -27,7 +27,7 @@
   box-shadow:0 0 90px rgba(214,161,62,.06);
   pointer-events:none;
 }
-.story-hero-copy{max-width:760px;position:relative;z-index:2}
+.story-hero-copy{max-width:760px;min-width:0;position:relative;z-index:2}
 .story-hero h1{font-size:clamp(4.4rem,9vw,9rem);margin-bottom:30px}
 .story-lead{font-size:clamp(1.4rem,2.4vw,2rem);line-height:1.2;letter-spacing:-.025em;max-width:650px;margin-bottom:18px}
 .story-intro{font-size:clamp(1rem,1.5vw,1.18rem);color:#aebdc5;max-width:650px;margin-bottom:30px}
@@ -128,7 +128,7 @@
 }
 
 @media(max-width:430px){
-  .story-hero h1{font-size:clamp(3rem,15.5vw,4.15rem);max-width:100%;letter-spacing:-.06em}
+  .story-hero h1{font-size:clamp(2.85rem,14.5vw,3.9rem);max-width:100%;letter-spacing:-.06em}
   .story-cover{border-radius:24px}
   .story-cover-title{font-size:clamp(2.3rem,12vw,3.4rem)}
   .photo-portraits{max-width:346px}
