@@ -1,5 +1,10 @@
 DirectoryIndex index.php
 Options -Indexes
+
+<FilesMatch "\.(sqlite|sqlite3|db)$">
+  Require all denied
+</FilesMatch>
+
 <IfModule mod_headers.c>
   Header always set X-Frame-Options "DENY"
   Header always set X-Content-Type-Options "nosniff"
