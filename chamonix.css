@@ -133,3 +133,9 @@
   .story-cover-title{font-size:clamp(2.3rem,12vw,3.4rem)}
   .photo-portraits{max-width:346px}
 }
+
+
+.story-cover-image{
+  background:url('assets/chamonix-2712.webp?v=1') center/cover no-repeat;
+}
+.story-cover-image::before,.story-cover-image::after{display:none}
