@@ -13,3 +13,20 @@ Photos must be optimized before they are committed to the website:
 - Compress for a sensible balance between visual quality and file size; normally aim below about 200 KB per image when the photo allows it.
 - Set explicit `width` and `height` attributes and use `loading="lazy"` for images below the fold.
 - Keep the original source photo outside the public website if a larger master copy is still needed later.
+
+## Mandatory page metadata
+
+Every public HTML page must pass `node scripts/validate-pages.mjs` before it is published. This protects both conventional search visibility and previews in WhatsApp and social platforms.
+
+Each page must contain:
+
+- a unique `<title>` and meta description;
+- an indexable robots directive;
+- one absolute canonical URL;
+- complete Open Graph and X/Twitter metadata;
+- an absolute page-specific `og:image`, normally the release cover or the page's main image;
+- useful alternative text for the preview image;
+- valid JSON-LD that describes the visible page content;
+- internal links from another crawlable page.
+
+When a page is added or removed, update `sitemap.xml`. Do not block search or answer-engine crawlers in `robots.txt`. The visible page text remains the primary source of truth: metadata and structured data must never make claims that are absent from the page.
