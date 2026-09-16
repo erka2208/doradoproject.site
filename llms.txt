@@ -19,3 +19,11 @@ Official website: https://doradoproject.com/
 Artist name: Dorado Project
 Spotify: https://open.spotify.com/artist/0EnoubZtFMCSgoqvqqDQIh
 Canonical domain: doradoproject.com
+
+## Back to Who We Are
+- Artist: Dorado Project
+- Status: Coming soon on Spotify
+- Genre: Arena rock / Alternative rock
+- Language: English
+- Summary: An epic stadium anthem about friendship, losing your way and finding the road back to who you truly are.
+- Cover: https://doradoproject.com/assets/back-to-who-we-are.webp
