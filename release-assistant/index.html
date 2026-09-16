@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07141c">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="Privé releasevoorbereiding voor Dorado Project.">
+  <title>Dorado Release-assistent</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="app.css?v=1">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="../" aria-label="Dorado Project">
+      <span class="brand-mark">D</span>
+      <span>DORADO <b>RELEASE</b></span>
+    </a>
+    <button class="ghost small" id="newRelease" type="button">Nieuwe release</button>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">VAN MASTER NAAR MUZIEKDIENSTEN</p>
+      <h1>Release klaarzetten.<br><span>Jij houdt de laatste klik.</span></h1>
+      <p>Bereid op mobiel of computer alle gegevens voor. Op Windows neemt de browserhulp ze over in DistroKid. Publiceren gebeurt nooit automatisch.</p>
+    </section>
+
+    <nav class="steps" aria-label="Voortgang">
+      <button class="step active" data-step="1" type="button"><span>1</span> Bestanden</button>
+      <button class="step" data-step="2" type="button"><span>2</span> Metadata</button>
+      <button class="step" data-step="3" type="button"><span>3</span> Controle</button>
+    </nav>
+
+    <form id="releaseForm" novalidate>
+      <section class="panel step-panel active" data-panel="1">
+        <div class="panel-heading">
+          <div><p class="eyebrow">STAP 1</p><h2>De bestanden</h2></div>
+          <span class="save-state" id="saveState">Lokaal opgeslagen</span>
+        </div>
+
+        <div class="upload-grid">
+          <label class="dropzone" id="audioZone">
+            <input type="file" id="audioFile" accept="audio/wav,audio/x-wav,audio/flac,audio/mpeg,.wav,.flac,.mp3">
+            <span class="drop-icon">♪</span>
+            <strong>Definitieve audio</strong>
+            <small>Bij voorkeur WAV, 44,1 kHz / 16-bit of hoger</small>
+            <em id="audioName">Kies audiobestand</em>
+          </label>
+
+          <label class="dropzone cover-zone" id="coverZone">
+            <input type="file" id="coverFile" accept="image/jpeg,image/png,.jpg,.jpeg,.png">
+            <span class="cover-preview" id="coverPreview"><span>□</span></span>
+            <strong>Albumhoes</strong>
+            <small>Vierkant JPG, minimaal 3000 × 3000 px</small>
+            <em id="coverName">Kies albumhoes</em>
+          </label>
+        </div>
+
+        <div class="checks" id="fileChecks" aria-live="polite"></div>
+        <div class="actions"><button class="primary next" type="button" data-next="2">Verder naar metadata →</button></div>
+      </section>
+
+      <section class="panel step-panel" data-panel="2">
+        <div class="panel-heading"><div><p class="eyebrow">STAP 2</p><h2>Releasegegevens</h2></div></div>
+
+        <div class="form-grid">
+          <label class="wide">Titel van de single<input name="title" required autocomplete="off" placeholder="Bijvoorbeeld Neon Sax Drive"></label>
+          <label>Artiest<input name="artist" required value="Dorado Project"></label>
+          <label>Releasetype<select name="releaseType"><option value="single">Single</option><option value="album">Album</option></select></label>
+          <label>Primaire taal<select name="language"><option value="nl">Nederlands</option><option value="en">Engels</option><option value="zxx">Instrumentaal / geen tekst</option></select></label>
+          <label>Genre<input name="genre" required placeholder="Bijvoorbeeld Rock"></label>
+          <label>Subgenre<input name="subgenre" placeholder="Bijvoorbeeld Alternative rock"></label>
+          <label>Releasedatum<input name="releaseDate" type="date" required></label>
+          <label>Platenlabel<input name="label" value="Dorado Project"></label>
+          <label class="wide">Songwriter(s)<input name="songwriters" required value="Rutger Kussendrager" placeholder="Volledige wettelijke naam/namen"></label>
+        </div>
+
+        <fieldset>
+          <legend>Inhoud</legend>
+          <div class="option-grid">
+            <label class="choice"><input type="radio" name="lyrics" value="lyrics" checked><span><strong>Met zang/tekst</strong><small>Het nummer bevat gezongen of gesproken tekst</small></span></label>
+            <label class="choice"><input type="radio" name="lyrics" value="instrumental"><span><strong>Instrumentaal</strong><small>Geen zang of gesproken tekst</small></span></label>
+            <label class="choice"><input type="radio" name="explicit" value="no" checked><span><strong>Niet expliciet</strong><small>Geen expliciete tekst</small></span></label>
+            <label class="choice"><input type="radio" name="explicit" value="yes"><span><strong>Expliciet</strong><small>Bevat expliciete tekst</small></span></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Vaste distributiekeuzes</legend>
+          <div class="option-grid">
+            <label class="choice"><input type="checkbox" name="stores" value="spotify" checked><span><strong>Spotify</strong><small>Altijd geselecteerd</small></span></label>
+            <label class="choice"><input type="checkbox" name="stores" value="apple"><span><strong>Apple Music</strong><small>Ook distribueren</small></span></label>
+            <label class="choice"><input type="checkbox" name="stores" value="youtube"><span><strong>YouTube Music</strong><small>Ook distribueren</small></span></label>
+            <label class="choice"><input type="checkbox" name="stores" value="other"><span><strong>Overige diensten</strong><small>De overige DistroKid-kanalen</small></span></label>
+          </div>
+        </fieldset>
+
+        <label class="notes">Interne notities<textarea name="notes" rows="4" placeholder="Bijvoorbeeld: hoes staat al op de site, ingezonden door…"></textarea></label>
+        <div class="actions split"><button class="ghost back" type="button" data-back="1">← Terug</button><button class="primary next" type="button" data-next="3">Controleer release →</button></div>
+      </section>
+
+      <section class="panel step-panel" data-panel="3">
+        <div class="panel-heading"><div><p class="eyebrow">STAP 3</p><h2>Menselijke controle</h2></div><span class="review-badge">Publiceert niet vanzelf</span></div>
+        <div class="review" id="review"></div>
+        <div class="warning">
+          <strong>Laatste controle blijft bij jou</strong>
+          <p>Controleer in DistroKid vooral titel, artiest, releasedatum, songwriter, AI-/rechtenverklaringen en geselecteerde muziekdiensten voordat je zelf op de definitieve knop drukt.</p>
+        </div>
+        <label class="approval"><input type="checkbox" id="approval"><span>Ik heb de gegevens hierboven gecontroleerd en wil het pakket klaarzetten voor DistroKid.</span></label>
+        <div class="handoff-actions">
+          <button class="primary" id="copyPackage" type="button" disabled>Kopieer voor browserhulp</button>
+          <button class="secondary" id="downloadPackage" type="button" disabled>Download releasepakket</button>
+          <a class="secondary disabled" id="openDistroKid" href="https://distrokid.com/new/" target="_blank" rel="noopener noreferrer" aria-disabled="true">Open DistroKid ↗</a>
+        </div>
+        <p class="helper-download">Eerste keer op Windows? <a href="downloads/dorado-distrokid-browser-helper.zip" download>Download de Chrome/Edge-browserhulp</a> en volg de handleiding in het zipbestand.</p>
+        <p class="privacy">Bestanden en releasegegevens worden alleen in deze browser verwerkt. Er wordt niets naar DoradoProject.com geüpload.</p>
+        <div class="actions"><button class="ghost back" type="button" data-back="2">← Gegevens aanpassen</button></div>
+      </section>
+    </form>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js?v=1" defer></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Dorado Release-assistent",
+  "short_name": "Dorado Release",
+  "description": "Bereid Dorado Project-releases voor DistroKid voor.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#061018",
+  "theme_color": "#07141c"
+}

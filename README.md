@@ -3,6 +3,10 @@ Dorado Project
 
 Webhook deployment test: 2026-09-13
 
+## Release assistant
+
+`release-assistant/` is a private-workflow, no-index PWA for preparing Dorado Project releases on mobile or desktop. Draft metadata is stored in the user's browser only. Its optional Chrome/Edge helper fills recognizable DistroKid fields but deliberately cannot choose local files, answer rights declarations, or submit a release.
+
 ## Website image rule
 
 Photos must be optimized before they are committed to the website:
