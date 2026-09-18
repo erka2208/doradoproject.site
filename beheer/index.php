@@ -145,7 +145,7 @@ try {
       <article class="feature-card"><span class="badge">Binnenkort</span><h2>Content maken</h2><p>Een blog, pagina of seizoensbericht toevoegen zonder technisch gedoe.</p></article>
       <?php endif; ?>
       <?php if (can('publish', $user)): ?>
-      <article class="feature-card"><span class="badge">Beheerder</span><h2>Goedkeuren en publiceren</h2><p>Jij houdt de laatste knop: niets gaat vanzelf live zonder jouw akkoord.</p></article>
+      <article class="feature-card"><span class="badge">Nu te testen</span><h2>Automatische tuintips</h2><p>Maak weektips, controleer weerregels en bekijk het logboek.</p><p><a class="secondary" href="automation.php">Open tuincoach →</a></p></article>
       <?php endif; ?>
       <?php if (can('integrations', $user)): ?>
       <article class="feature-card"><span class="badge">Later</span><h2>Koppelingen</h2><p>Kassa, webshop, weer, nieuwsbrief en sociale media komen hier samen.</p></article>
@@ -196,4 +196,3 @@ try {
   </main>
 </body>
 </html>
-
