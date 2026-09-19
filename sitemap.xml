@@ -21,4 +21,14 @@
       <image:title>CHAMONIX 2712 by Dorado Project</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://doradoproject.com/where-silence-turns-electric.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://doradoproject.com/assets/where-silence-turns-electric/00-album-where-silence-turns-electric.webp</image:loc>
+      <image:title>Where Silence Turns Electric by Dorado Project</image:title>
+    </image:image>
+  </url>
 </urlset>
