@@ -2,7 +2,8 @@ import { readFile, readdir } from "node:fs/promises";
 import { basename, join } from "node:path";
 
 const root = new URL("../", import.meta.url);
-const files = (await readdir(root)).filter((file) => file.endsWith(".html"));
+const files = [...(await readdir(root)).filter((file) => file.endsWith(".html")),
+  ...(await readdir(new URL('releases/', root))).filter((file) => file.endsWith('.html')).map((file) => `releases/${file}`)];
 const sitemap = await readFile(new URL("sitemap.xml", root), "utf8");
 const failures = [];
 

@@ -29,4 +29,13 @@ Each page must contain:
 - valid JSON-LD that describes the visible page content;
 - internal links from another crawlable page.
 
-When a page is added or removed, update `sitemap.xml`. Do not block search or answer-engine crawlers in `robots.txt`. The visible page text remains the primary source of truth: metadata and structured data must never make claims that are absent from the page.
+## New releases
+
+Add or update a release card in `index.html` with a unique `id`, cover in `assets/`, accurate short description, genre and production status. Add a direct `https://open.spotify.com/track/...` button only when the correct track is live. Then run:
+
+```sh
+node scripts/build-releases.mjs
+node scripts/validate-pages.mjs
+```
+
+The generator creates the individual release page, its permanent link from the homepage, MusicRecording/MusicComposition metadata and sitemap entry. Check the generated page's wording and language before publishing. Never claim a release date or streaming availability that has not been verified. To add a longer personal story, update the release data and generator rather than editing generated HTML, which gets overwritten. CI rejects a missing generation step. For non-release pages, update `sitemap.xml` when adding or removing a page. Do not block search crawlers in `robots.txt`; visible page text must match metadata and structured data.
