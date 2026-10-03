@@ -1,5 +1,6 @@
-import { readFile, writeFile, readdir } from 'node:fs/promises';
+import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
+import { buildAlbums } from './build-albums.mjs';
 
 const root = new URL('../', import.meta.url);
 const origin = 'https://doradoproject.com/';
@@ -10,6 +11,7 @@ const escape = (s) => s.replaceAll('&', '&amp;').replaceAll('"', '&quot;').repla
 const clean = (s) => s.replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").trim();
 const field = (html, pattern) => clean(html.match(pattern)?.[1] || '');
 const current = await read('index.html');
+const albumBuild = await buildAlbums(root);
 const homeSchema = JSON.parse(current.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1] || '{}');
 const oldSitemap = await read('sitemap.xml');
 const dates = new Map([...oldSitemap.matchAll(/<url>\s*<loc>(.*?)<\/loc>\s*<lastmod>(.*?)<\/lastmod>/gs)].map(([, url, date]) => [url, date]));
@@ -32,9 +34,23 @@ let home = current.replace(cardRE, (whole, id, body) => {
 });
 
 // Keep the home page's structured data aligned with the new permanent song URLs.
+if (albumBuild.section) {
+  if (home.includes('<!-- HALLOWEEN_ALBUMS_START -->')) {
+    home = home.replace(/<!-- HALLOWEEN_ALBUMS_START -->[\s\S]*?<!-- HALLOWEEN_ALBUMS_END -->/, albumBuild.section);
+  } else {
+    home = home.replace('      <div class="release-grid">', `${albumBuild.section}\n\n      <div class="release-grid">`);
+  }
+  if (!home.includes('href="album.css?v=1"')) home = home.replace('<link rel="stylesheet" href="styles.css?v=5">', '<link rel="stylesheet" href="styles.css?v=5">\n  <link rel="stylesheet" href="album.css?v=1">');
+}
 home = home.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (whole, json) => {
   const graph = JSON.parse(json);
+  graph['@graph'] = (graph['@graph'] || []).filter((item) => !albumBuild.schemas.some((a) => item['@id'] === a['@id']));
+  graph['@graph'].push(...albumBuild.schemas);
   for (const item of graph['@graph'] || []) {
+    if (item['@type'] === 'MusicComposition' && item.byArtist) {
+      item.composer = item.byArtist;
+      delete item.byArtist;
+    }
     const release = releases.find((r) => item['@id'] === `${origin}#${r.slug}`);
     if (release) {
       item['@id'] = `${origin}releases/${release.slug}.html#recording`;
@@ -46,7 +62,7 @@ home = home.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/,
 });
 home = home.replace(/[ \t]+$/gm, '');
 
-const files = new Map([['index.html', home]]);
+const files = new Map([['index.html', home], ...albumBuild.files]);
 for (const r of releases) {
   const lang = r.language || (/\b(een|het|de|met|naar|van|niet|en|wordt|komt|blijft|door)\b/i.test(r.description) ? 'nl' : 'en');
   const url = `${origin}releases/${r.slug}.html`;
@@ -57,7 +73,7 @@ for (const r of releases) {
     '@context': 'https://schema.org', '@type': r.spotify ? 'MusicRecording' : 'MusicComposition',
     '@id': `${url}#recording`, name: r.title, url, description: r.description,
     image, genre: r.genre.split(/\s*\/\s*/), inLanguage: lang,
-    byArtist: { '@id': `${origin}#artist`, '@type': 'MusicGroup', name: 'Dorado Project', url: origin },
+    [r.spotify ? 'byArtist' : 'composer']: { '@id': `${origin}#artist`, '@type': 'MusicGroup', name: 'Dorado Project', url: origin },
     ...(r.spotify ? { sameAs: r.spotify } : {})
   };
   const action = r.spotify
@@ -67,7 +83,7 @@ for (const r of releases) {
 }
 
 const basePages = ['index.html', 'chamonix.html'];
-const urls = [...basePages, ...releases.map((r) => `releases/${r.slug}.html`)];
+const urls = [...basePages, ...releases.map((r) => `releases/${r.slug}.html`), ...albumBuild.files.keys()];
 const dateFor = async (file) => {
   const url = file === 'index.html' ? origin : origin + file;
   let existing;
@@ -90,10 +106,12 @@ for (const [file, content] of files) {
   try { existing = await read(file); } catch { /* new page */ }
   if (existing !== content) {
     changed++;
-    if (!check) await writeFile(new URL(file, root), content);
+    if (!check) {
+      await mkdir(new URL('./', new URL(file, root)), { recursive: true });
+      await writeFile(new URL(file, root), content);
+    }
     else console.error(`Out of date: ${file}`);
   }
 }
 if (check && changed) process.exitCode = 1;
 console.log(`${releases.length} release pages; ${changed} ${check ? 'out of date' : 'updated'} files.`);
-
