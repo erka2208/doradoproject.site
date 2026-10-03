@@ -40,7 +40,8 @@ if (albumBuild.section) {
   } else {
     home = home.replace('      <div class="release-grid">', `${albumBuild.section}\n\n      <div class="release-grid">`);
   }
-  if (!home.includes('href="album.css?v=1"')) home = home.replace('<link rel="stylesheet" href="styles.css?v=5">', '<link rel="stylesheet" href="styles.css?v=5">\n  <link rel="stylesheet" href="album.css?v=1">');
+  home = home.replace(/href="album.css\?v=\d+"/g, 'href="album.css?v=2"');
+  if (!home.includes('href="album.css?v=2"')) home = home.replace('<link rel="stylesheet" href="styles.css?v=5">', '<link rel="stylesheet" href="styles.css?v=5">\n  <link rel="stylesheet" href="album.css?v=2">');
 }
 home = home.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (whole, json) => {
   const graph = JSON.parse(json);

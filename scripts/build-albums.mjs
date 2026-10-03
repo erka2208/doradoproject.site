@@ -40,7 +40,7 @@ function page({ title, description, path, image, alt, type, graph, content }) {
   <script type="application/ld+json">${json({ '@context': 'https://schema.org', '@graph': graph })}</script>
   <link rel="stylesheet" href="/styles.css?v=5">
   <link rel="stylesheet" href="/release.css?v=1">
-  <link rel="stylesheet" href="/album.css?v=1">
+  <link rel="stylesheet" href="/album.css?v=2">
 </head>
 <body class="release-page album-page">
   <div class="grain" aria-hidden="true"></div>
