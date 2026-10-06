@@ -35,10 +35,11 @@ Add or update a release card in `index.html` with a unique `id`, cover in `asset
 
 ```sh
 node scripts/build-releases.mjs
+node scripts/build-releases.mjs --check
 node scripts/validate-pages.mjs
 ```
 
-The generator creates the individual release page, its permanent link from the homepage, MusicRecording/MusicComposition metadata and sitemap entry. Check the generated page's wording and language before publishing. Never claim a release date or streaming availability that has not been verified. To add a longer personal story, update the release data and generator rather than editing generated HTML, which gets overwritten. CI rejects a missing generation step. For non-release pages, update `sitemap.xml` when adding or removing a page. Do not block search crawlers in `robots.txt`; visible page text must match metadata and structured data.
+The generator creates the individual release page, its permanent link from the homepage, MusicRecording/MusicComposition metadata and sitemap entry. Check the generated page's wording and language before publishing. Never claim a release date or streaming availability that has not been verified. Store a custom page title, detailed description or personal story in `data/release-details.json`, keyed by release slug (`pageTitle`, `description`, `storyTitle`, `story`). Do not edit generated release HTML directly: it gets overwritten. Commit the source changes together with all regenerated files, including `index.html` and `sitemap.xml`. CI rejects a missing generation step. For non-release pages, update `sitemap.xml` when adding or removing a page. Do not block search crawlers in `robots.txt`; visible page text must match metadata and structured data.
 
 ## Albums and individual album tracks
 
