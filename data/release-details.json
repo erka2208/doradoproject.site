@@ -15,7 +15,17 @@
     "pageTitle": "Best Driver (Pete) — frantic comic punk rock | Dorado Project",
     "description": "Best Driver (Pete) by Dorado Project: an English-language comic punk song about Peter, an overconfident driver whose terrified passengers would rather walk.",
     "storyTitle": "Peter at the wheel",
-    "story": "A tongue-in-cheek, exaggerated driving nightmare: Peter declares himself the best driver in the world while his passengers cling to the dashboard. Best Driver (Pete) was written for frantic punk guitars, raw male vocals, rowdy gang responses and a melodic guitar solo, with a gradual fade-out. The joke is the gap between his unshakable confidence and the chaos around him. The song contains explicit language."
+    "story": "A tongue-in-cheek, exaggerated driving nightmare: Peter declares himself the best driver in the world while his passengers cling to the dashboard. Best Driver (Pete) was written for frantic punk guitars, raw male vocals, rowdy gang responses and a melodic guitar solo, with a gradual fade-out. The joke is the gap between his unshakable confidence and the chaos around him. The song contains explicit language.",
+    "video": {
+      "src": "media/best-driver/best-driver.mp4",
+      "poster": "assets/best-driver-video.webp",
+      "title": "Best Driver (Pete) — animated music video",
+      "description": "Peter takes the wheel in this hand-drawn animated music video, complete with blond curls, boundless confidence and a very nervous passenger. Featuring the original Best Driver (Pete) recording by Dorado Project. The song contains explicit language.",
+      "duration": "PT2M51.893S",
+      "uploadDate": "2026-10-23",
+      "width": 1280,
+      "height": 720
+    }
   },
   "mijn-tranen-hebben-de-slappe-lach": {
     "pageTitle": "Mijn tranen hebben de slappe lach... — vrolijk kinderlied | Dorado Project",

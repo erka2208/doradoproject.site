@@ -15,3 +15,7 @@
 .release-detail-link { align-self: flex-start; color: #e7bb70; font-weight: 700; text-decoration: none; margin-top: 7px; }
 .release-detail-link:hover { text-decoration: underline; }
 @media (max-width: 760px) { .release-main { padding: 110px 20px 65px; } .release-feature { grid-template-columns: 1fr; } .release-feature img { max-width: 540px; } .more-music { margin-top: 65px; } }
+
+.release-video { scroll-margin-top: 110px; }
+.release-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; border-radius: 12px; }
+.release-feature-copy > .button { margin: 0 10px 12px 0; }

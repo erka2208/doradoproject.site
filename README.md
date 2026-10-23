@@ -52,3 +52,7 @@ Album data is maintained in `data/halloween-albums.json`. The release generator 
 - Public pages use crawlable HTML, permanent canonical URLs, Open Graph images, MusicAlbum/MusicRecording JSON-LD and breadcrumbs. Parts are separate recordings and link to one another.
 - Use meaningful genre/theme terms naturally in the copy. Meta-keyword lists, repeated search terms and claims of guaranteed rankings or AI inclusion are not part of the workflow.
 - Run the generation check and page validator before every publication. Validation checks unique titles/descriptions/canonicals, JSON syntax, sitemap membership, local links/images and incoming crawlable links for all public pages.
+
+## Release videos
+
+Add a `video` object to the release entry in `data/release-details.json` with `src`, `poster`, `title`, `description`, `duration` (ISO 8601), `uploadDate`, `width`, and `height`. Regenerate release pages and run both required checks. The generator adds a native, responsive player with controls and `preload="none"`, a watch button, and VideoObject metadata. Commit the optimized poster image. Large MP4 files are managed separately in the hosting file manager under their configured `media/` path; upload and verify the media before deploying the page. Keep original masters outside the public website.
