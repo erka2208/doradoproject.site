@@ -45,6 +45,8 @@ The generator creates the individual release page, its permanent link from the h
 
 Album data is maintained in `data/halloween-albums.json`. The release generator also invokes `scripts/build-albums.mjs`, which builds the homepage album cards, permanent album pages, individual track pages and their sitemap entries. The data file is the source of truth: do not hand-edit generated album HTML.
 
+The data filename is historical: it also supports non-Halloween albums. Set `category` to a value such as `progressive-rock` for a concept album in the homepage Albums section; omitting it preserves the existing Halloween behaviour. Supply `genre`, `genreLabel`, `cardGenre`, `storyTitle`, `story` (an array of paragraphs), `pageTitle`, `metaDescription`, `status`, `statusNote` and `trackStatusNote` for the album. Tracks can provide `creativeDirection` instead of a Halloween scene template. Keep streaming URLs absent during production. Optional `duration` fields use ISO 8601 durations and must come from verified audio-file measurements, never prompt targets.
+
 - Preserve the submitted album order and exact track/version titles.
 - Every track needs a distinct, optimised artwork file, descriptive alternative text, a scene-specific description and an accurate story. Describe creative direction as such; do not claim that audio effects were verified without listening.
 - Keep album and track Spotify URLs absent until the exact releases are confirmed live. Add a verified album URL in `album.spotify` and direct track URLs in `track.spotify`, then regenerate.
