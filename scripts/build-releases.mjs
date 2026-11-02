@@ -41,23 +41,29 @@ if (albumBuild.section) {
   } else {
     home = home.replace('      <div class="release-grid">', `${albumBuild.section}\n\n      <div class="release-grid">`);
   }
-  home = home.replace(/href="album.css\?v=\d+"/g, 'href="album.css?v=2"');
-  if (!home.includes('href="album.css?v=2"')) home = home.replace('<link rel="stylesheet" href="styles.css?v=5">', '<link rel="stylesheet" href="styles.css?v=5">\n  <link rel="stylesheet" href="album.css?v=2">');
+  home = home.replace(/href="album.css\?v=\d+"/g, 'href="album.css?v=3"');
+  if (!home.includes('href="album.css?v=3"')) home = home.replace('<link rel="stylesheet" href="styles.css?v=5">', '<link rel="stylesheet" href="styles.css?v=5">\n  <link rel="stylesheet" href="album.css?v=3">');
 }
 home = home.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (whole, json) => {
   const graph = JSON.parse(json);
-  graph['@graph'] = (graph['@graph'] || []).filter((item) => !albumBuild.schemas.some((a) => item['@id'] === a['@id']));
+  graph['@graph'] = (graph['@graph'] || []).filter((item) => item['@type'] !== 'MusicAlbum');
   graph['@graph'].push(...albumBuild.schemas);
   for (const item of graph['@graph'] || []) {
     if (item['@type'] === 'MusicComposition' && item.byArtist) {
       item.composer = item.byArtist;
       delete item.byArtist;
     }
-    const release = releases.find((r) => item['@id'] === `${origin}#${r.slug}`);
+    const release = releases.find((r) => item['@id'] === `${origin}#${r.slug}` || item['@id'] === `${origin}releases/${r.slug}.html#recording`);
     if (release) {
       item['@id'] = `${origin}releases/${release.slug}.html#recording`;
       item.url = `${origin}releases/${release.slug}.html`;
-      if (release.spotify && !item.sameAs) item.sameAs = release.spotify;
+      item.name = release.title;
+      if (release.spotify) {
+        item.sameAs = release.spotify;
+        item['@type'] = 'MusicRecording';
+        if (item.composer && !item.byArtist) item.byArtist = item.composer;
+        delete item.composer;
+      }
     }
   }
   return `<script type="application/ld+json">\n  ${JSON.stringify(graph, null, 2).replaceAll('\n', '\n  ')}\n  </script>`;
@@ -72,7 +78,7 @@ for (const release of releases) {
   const image = `${origin}${r.image}`;
   const title = r.pageTitle || `${r.title} — Dorado Project`;
   const summary = `${r.description} ${r.spotify ? (lang === 'nl' ? 'Beluister op Spotify.' : 'Listen on Spotify.') : (lang === 'nl' ? 'Ontdek de track en volg de release.' : 'Discover the track and follow its release.')}`;
-  const isRecording = !!(r.spotify || r.songer || r.duration);
+  const isRecording = !!(r.spotify || r.duration);
   const schema = {
     '@context': 'https://schema.org', '@type': isRecording ? 'MusicRecording' : 'MusicComposition',
     '@id': `${url}#recording`, name: r.title, url, description: r.description,
@@ -84,7 +90,7 @@ for (const release of releases) {
   const primaryAction = r.spotify
     ? `<a class="button button-primary" href="${escape(r.spotify)}" target="_blank" rel="noopener noreferrer">${lang === 'nl' ? 'Luister op Spotify' : 'Listen on Spotify'} →</a>`
     : `<p class="release-note">${lang === 'nl' ? 'De Spotify-link volgt zodra het nummer daar beschikbaar is.' : 'Spotify link to follow when the track is available.'}</p>`;
-  const action = primaryAction + (r.songer ? `<a class="button button-secondary" href="${escape(r.songer)}" target="_blank" rel="noopener noreferrer">${lang === 'nl' ? 'Luister op Songer' : 'Listen on Songer'} →</a>` : '') + (r.hyperfollow ? `<a class="button button-secondary" href="${escape(r.hyperfollow)}" target="_blank" rel="noopener noreferrer">Volg deze release →</a>` : '');
+  const action = primaryAction + (r.hyperfollow ? `<a class="button button-secondary" href="${escape(r.hyperfollow)}" target="_blank" rel="noopener noreferrer">Volg deze release →</a>` : '');
   files.set(`releases/${r.slug}.html`, `<!doctype html>\n<html lang="${lang}">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1">\n  <meta name="theme-color" content="#07141c">\n  <title>${escape(title)}</title>\n  <meta name="description" content="${escape(summary.slice(0, 300))}">\n  <meta name="robots" content="index, follow, max-image-preview:large">\n  <link rel="canonical" href="${url}">\n  <meta property="og:type" content="music.song">\n  <meta property="og:title" content="${escape(title)}">\n  <meta property="og:description" content="${escape(r.description)}">\n  <meta property="og:url" content="${url}">\n  <meta property="og:site_name" content="Dorado Project">\n  <meta property="og:image" content="${image}">\n  <meta property="og:image:alt" content="${escape(r.title)} cover by Dorado Project">\n  <meta name="twitter:card" content="summary_large_image">\n  <meta name="twitter:title" content="${escape(title)}">\n  <meta name="twitter:description" content="${escape(r.description)}">\n  <meta name="twitter:image" content="${image}">\n  <script type="application/ld+json">\n  ${JSON.stringify(schema, null, 2).replaceAll('<', '\\u003c').replaceAll('\n', '\n  ')}\n  </script>\n  <link rel="stylesheet" href="../styles.css?v=5">\n  <link rel="stylesheet" href="../release.css?v=1">\n</head>\n<body class="release-page">\n  <div class="grain" aria-hidden="true"></div>\n  <header class="site-header scrolled">\n    <a class="brand" href="../index.html" aria-label="Dorado Project home"><span class="brand-mark">D</span><span>DORADO PROJECT</span></a>\n    <nav aria-label="Primary navigation"><a href="../index.html#releases">Releases</a><a href="../index.html#about">About</a></nav>\n  </header>\n  <main class="release-main">\n    <a class="back-link" href="../index.html#${r.slug}">← ${lang === 'nl' ? 'Alle releases' : 'All releases'}</a>\n    <article class="release-feature">\n      <img src="../${escape(r.image)}" alt="${escape(r.title)} cover by Dorado Project" width="1200" height="1200">\n      <div class="release-feature-copy">\n        <p class="eyebrow">${escape(r.status)}</p>\n        <h1 class="notranslate" translate="no">${escape(r.title)}</h1>\n        <p class="release-genre">${escape(r.genre)}</p>\n        <p class="release-description">${escape(r.description)}</p>\n        ${action}\n      </div>\n    </article>\n${r.story ? `    <section class="more-music"><h2>${escape(r.storyTitle)}</h2><p>${escape(r.story)}</p></section>\n` : ''}    <section class="more-music"><h2>${lang === 'nl' ? 'Meer van Dorado Project' : 'More from Dorado Project'}</h2><p>${lang === 'nl' ? 'Van synthpop tot rock: ontdek de andere nummers en het verhaal achter Dorado Project.' : 'From synthpop to rock: explore more tracks and the story behind Dorado Project.'}</p><a class="button button-secondary" href="../index.html#releases">${lang === 'nl' ? 'Bekijk alle nummers' : 'Explore all tracks'} →</a></section>\n  </main>\n  <footer><span>© Dorado Project</span><a href="../index.html">doradoproject.com</a></footer>\n</body>\n</html>\n`);
 }
 
