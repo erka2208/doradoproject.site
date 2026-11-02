@@ -1,5 +1,5 @@
 .album-home-section{margin:0 0 76px;padding:32px 0 52px;border-bottom:1px solid rgba(255,255,255,.14)}
-.album-home-section>h3{font-size:clamp(2rem,4vw,3rem);margin:12px 0 18px}.album-intro{max-width:70ch;color:var(--muted);margin-bottom:30px}
+.album-home-section>:is(h2,h3){font-size:clamp(2rem,4vw,3rem);margin:12px 0 18px}.album-intro{max-width:70ch;color:var(--muted);margin-bottom:30px}
 .album-home-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:960px}.album-card{display:flex;flex-direction:column;min-width:0}.album-card>a:first-child{display:block}.album-card img{display:block;width:100%;height:auto;border-radius:16px}.album-card h3{font-size:clamp(1.5rem,2vw,2.2rem);line-height:1.15;margin-bottom:0}.album-card>p{color:var(--muted)}
 .breadcrumbs{color:#aabac4;font-size:.9rem;line-height:1.7;margin-bottom:32px;overflow-wrap:anywhere}.breadcrumbs a{color:#d4ad66;text-decoration:none}.breadcrumbs a:hover{text-decoration:underline}
 .album-story{max-width:80ch;margin:68px 0 54px;line-height:1.85}.album-story h2,.tracklist-section h2,.version-section h2{font-size:clamp(1.7rem,3vw,2.5rem);line-height:1.15}.album-story a,.version-section a,.album-link{color:#e7bb70;text-decoration:none}.album-story a:hover,.version-section a:hover,.album-link:hover{text-decoration:underline}.album-link{display:block;margin-top:24px;line-height:1.5}.art-caption{font-size:.94rem;color:#aabac4}
@@ -10,3 +10,9 @@
 
 /* Album navigation must wrap even though the global header links do not. */
 .breadcrumbs{display:block}.breadcrumbs a,.track-navigation a{white-space:normal;overflow-wrap:anywhere}.track-navigation>a{min-width:0}
+
+/* Compact seasonal collection and navigation for the growing catalogue. */
+.seasonal-link{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:28px;margin:60px 0 35px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.025)}
+.seasonal-link h3{margin:8px 0;font-size:1.7rem}.seasonal-link p:not(.eyebrow){color:var(--muted);max-width:65ch}.seasonal-link .button{flex-shrink:0}
+#albums,#singles,#halloween-albums{scroll-margin-top:110px}
+@media(max-width:600px){.site-header nav{flex-wrap:wrap;row-gap:10px}.seasonal-link{align-items:flex-start;flex-direction:column;padding:22px}}

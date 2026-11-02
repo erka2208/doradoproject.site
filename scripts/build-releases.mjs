@@ -41,23 +41,29 @@ if (albumBuild.section) {
   } else {
     home = home.replace('      <div class="release-grid">', `${albumBuild.section}\n\n      <div class="release-grid">`);
   }
-  home = home.replace(/href="album.css\?v=\d+"/g, 'href="album.css?v=2"');
-  if (!home.includes('href="album.css?v=2"')) home = home.replace('<link rel="stylesheet" href="styles.css?v=5">', '<link rel="stylesheet" href="styles.css?v=5">\n  <link rel="stylesheet" href="album.css?v=2">');
+  home = home.replace(/href="album.css\?v=\d+"/g, 'href="album.css?v=3"');
+  if (!home.includes('href="album.css?v=3"')) home = home.replace('<link rel="stylesheet" href="styles.css?v=5">', '<link rel="stylesheet" href="styles.css?v=5">\n  <link rel="stylesheet" href="album.css?v=3">');
 }
 home = home.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (whole, json) => {
   const graph = JSON.parse(json);
-  graph['@graph'] = (graph['@graph'] || []).filter((item) => !albumBuild.schemas.some((a) => item['@id'] === a['@id']));
+  graph['@graph'] = (graph['@graph'] || []).filter((item) => item['@type'] !== 'MusicAlbum');
   graph['@graph'].push(...albumBuild.schemas);
   for (const item of graph['@graph'] || []) {
     if (item['@type'] === 'MusicComposition' && item.byArtist) {
       item.composer = item.byArtist;
       delete item.byArtist;
     }
-    const release = releases.find((r) => item['@id'] === `${origin}#${r.slug}`);
+    const release = releases.find((r) => item['@id'] === `${origin}#${r.slug}` || item['@id'] === `${origin}releases/${r.slug}.html#recording`);
     if (release) {
       item['@id'] = `${origin}releases/${release.slug}.html#recording`;
       item.url = `${origin}releases/${release.slug}.html`;
-      if (release.spotify && !item.sameAs) item.sameAs = release.spotify;
+      item.name = release.title;
+      if (release.spotify) {
+        item.sameAs = release.spotify;
+        item['@type'] = 'MusicRecording';
+        if (item.composer && !item.byArtist) item.byArtist = item.composer;
+        delete item.composer;
+      }
     }
   }
   return `<script type="application/ld+json">\n  ${JSON.stringify(graph, null, 2).replaceAll('\n', '\n  ')}\n  </script>`;
