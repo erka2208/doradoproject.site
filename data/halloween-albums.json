@@ -694,16 +694,16 @@
       "en"
     ],
     "status": "In production",
-    "statusNote": "In production. This page introduces the songs and their creative direction; streaming links will be added after the release is confirmed.",
-    "trackStatusNote": "Part of Frequency Flashback, an album in production. A verified listening link will be added after release.",
+    "statusNote": "A new Dorado Project album is on its way. Explore the songs below.",
+    "trackStatusNote": "From the forthcoming Dorado Project album Frequency Flashback.",
     "pageTitle": "Frequency Flashback — 20 Original Songs | Dorado Project",
     "metaDescription": "Explore Frequency Flashback by Dorado Project: 20 original Dutch and English songs with pop, dance, rock and soul, inspired by the variety of classic hits compilations.",
     "storyTitle": "One album, twenty different sides",
     "story": [
       "Frequency Flashback starts from the pleasure of a favourite compilation: the next song can bring a different voice, a new rhythm or an unexpected change of mood. Its twenty original songs take that sense of variety into a new Dorado Project album.",
-      "Ten Dutch-language songs and ten English-language songs share the running order. Different vocal characters, bands and arrangements belong to the creative brief; Dorado Project remains the credited artist throughout.",
-      "The collection draws on the energy of 1990s and 2000s pop culture without using existing hits, samples or impersonations. These are new songs, with room for the dance floor, a guitar band, a soulful chorus and a quieter final stretch.",
-      "Created with AI tools under the direction of Rutger Kussendrager. The track notes describe the creative direction rather than claiming that a particular sound or performance has already been verified."
+      "Ten Dutch-language songs and ten English-language songs share the running order. From a rainy-night dance to a missed train, a road trip and a kitchen conversation, each song opens a different door.",
+      "The collection draws on the energy of 1990s and 2000s pop culture. There is room for the dance floor, guitar bands, soulful choruses and quieter moments before the communal finale.",
+      "Created with AI tools under the direction of Rutger Kussendrager."
     ],
     "tracks": [
       {
@@ -714,11 +714,14 @@
         "theme": "Dance pop · Dutch",
         "description": "Morgen Is Van Ons by Dorado Project, from Frequency Flashback. A rainy journey ends at a warm apartment, where two people put the day aside and dance without a plan.",
         "story": "A rainy journey ends at a warm apartment, where two people put the day aside and dance without a plan.",
-        "creativeDirection": "The production brief calls for dance pop with female bright alto. Original Dutch 90s dance pop, 124 BPM, bright female alto, piano stabs, rubbery bass, sparkling synth hook, live handclaps. Euphoric chorus, intimate bridge, crisp radio mix. No artist imitation.",
+        "creativeDirection": "A shared room becomes a dance floor, with tomorrow left outside the door for one more night.",
         "scene": "A rainy journey ends at a warm apartment, where two people put the day aside and dance without a plan.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Morgen Is Van Ons",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT188.133515S",
+        "durationLabel": "3:08",
+        "songer": "https://songer.co/song/ar7lhwqx95idkblgn47ptaim"
       },
       {
         "position": 2,
@@ -728,11 +731,14 @@
         "theme": "Pop punk · English",
         "description": "Static Hearts by Dorado Project, from Frequency Flashback. Broken speakers, parking meters and a closing shift become the starting point for a loud, imperfect new beginning.",
         "story": "Broken speakers, parking meters and a closing shift become the starting point for a loud, imperfect new beginning.",
-        "creativeDirection": "The production brief calls for pop punk with male youthful rough tenor. Original English 00s pop punk, 158 BPM, rough youthful male tenor, palm-muted guitars, melodic bass, explosive live drums. Short guitar intro, gang refrain, half-time bridge, energetic dry mix.",
+        "creativeDirection": "Young ambition survives on secondhand equipment, a little defiance and the courage to mean what you say.",
         "scene": "Broken speakers, parking meters and a closing shift become the starting point for a loud, imperfect new beginning.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Static Hearts",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT156.013515S",
+        "durationLabel": "2:36",
+        "songer": "https://songer.co/song/io202d4qdo76kb6pslsyh5re"
       },
       {
         "position": 3,
@@ -742,11 +748,14 @@
         "theme": "Reggae pop · Dutch",
         "description": "Onder Dezelfde Zon by Dorado Project, from Frequency Flashback. Photos, familiar objects and a shared sun keep a connection alive across the distance between two homes.",
         "story": "Photos, familiar objects and a shared sun keep a connection alive across the distance between two homes.",
-        "creativeDirection": "The production brief calls for reggae pop with male warm baritone and female harmonies. Original Dutch reggae pop, 94 BPM, warm male baritone with female harmonies, offbeat clean guitar, organ bubbles, deep bass, brushed percussion, small trumpet fills. Relaxed sunny pocket, organic production.",
+        "creativeDirection": "Distance changes the view from the window, but it does not erase the small things two people still share.",
         "scene": "Photos, familiar objects and a shared sun keep a connection alive across the distance between two homes.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Onder Dezelfde Zon",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT182.413515S",
+        "durationLabel": "3:02",
+        "songer": "https://songer.co/song/i5h9h2fgwljgo80vef4nvktk"
       },
       {
         "position": 4,
@@ -756,11 +765,14 @@
         "theme": "Contemporary R&B · English",
         "description": "Velvet Hotline by Dorado Project, from Frequency Flashback. At the end of a long day of speaking for everyone else, one quiet telephone conversation makes room for an honest voice.",
         "story": "At the end of a long day of speaking for everyone else, one quiet telephone conversation makes room for an honest voice.",
-        "creativeDirection": "The production brief calls for contemporary r&b with female smoky mezzo. Original English late-90s R&B, 82 BPM, smoky female mezzo, Rhodes, syncopated bass, tight rimshots, muted guitar, lush self-harmonies. Sensual restrained verses, layered hook, spacious tasteful radio production.",
+        "creativeDirection": "Behind the day's public voice, a familiar person on the telephone hears the quieter one.",
         "scene": "At the end of a long day of speaking for everyone else, one quiet telephone conversation makes room for an honest voice.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Velvet Hotline",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT221.933515S",
+        "durationLabel": "3:42",
+        "songer": "https://songer.co/song/ywi7kwqr615yyriqd22dtl9o"
       },
       {
         "position": 5,
@@ -770,11 +782,14 @@
         "theme": "Eurodance · Dutch",
         "description": "Alles In Kleur by Dorado Project, from Frequency Flashback. A bright dance-pop scene turns a change of perspective into a celebration of colour and possibility.",
         "story": "A bright dance-pop scene turns a change of perspective into a celebration of colour and possibility.",
-        "creativeDirection": "The production brief calls for eurodance with female powerful soprano with male rhythmic verses. Original Dutch 90s eurodance, 138 BPM, powerful female chorus and rhythmic male verses, piano rave chords, analog synth riff, driving kick, buoyant bass. Dramatic breakdown then euphoric final hook, clean mix.",
+        "creativeDirection": "A change of light becomes a change of mind: a song about leaving grey routines behind.",
         "scene": "A bright dance-pop scene turns a change of perspective into a celebration of colour and possibility.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Alles In Kleur",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT179.213515S",
+        "durationLabel": "2:59",
+        "songer": "https://songer.co/song/zmslihjaq7xv5x7j2n8bpf5p"
       },
       {
         "position": 6,
@@ -784,11 +799,14 @@
         "theme": "Britpop · English",
         "description": "Paper Satellites by Dorado Project, from Frequency Flashback. A folded council letter becomes a paper satellite above a street where rising rent and ordinary lives meet.",
         "story": "A folded council letter becomes a paper satellite above a street where rising rent and ordinary lives meet.",
-        "creativeDirection": "The production brief calls for britpop with male conversational tenor. Original English 90s britpop, 116 BPM, conversational male tenor, jangly guitars, melodic bass, roomy drums, organ, small string lift. Wry intimate verses, soaring melodic chorus, instrumental middle eight.",
+        "creativeDirection": "Ordinary frustrations lift off as paper aeroplanes, finding a little humour above an expensive city.",
         "scene": "A folded council letter becomes a paper satellite above a street where rising rent and ordinary lives meet.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Paper Satellites",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT219.213515S",
+        "durationLabel": "3:39",
+        "songer": "https://songer.co/song/f1br7n01vsh09y1y2fur8rwa"
       },
       {
         "position": 7,
@@ -798,11 +816,14 @@
         "theme": "Acoustic pop · Dutch",
         "description": "Laat De Stad Maar Slapen by Dorado Project, from Frequency Flashback. A kitchen conversation continues while the city sleeps; listening matters more than offering easy advice.",
         "story": "A kitchen conversation continues while the city sleeps; listening matters more than offering easy advice.",
-        "creativeDirection": "The production brief calls for acoustic pop with female intimate low alto. Original Dutch acoustic pop, 76 BPM, intimate low female alto, fingerpicked steel-string guitar, upright bass, soft brushed drums, subtle cello. No big synths, conversational phrasing, delicate restrained final chorus.",
+        "creativeDirection": "Two people make room for a difficult conversation without rushing to fill every silence.",
         "scene": "A kitchen conversation continues while the city sleeps; listening matters more than offering easy advice.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Laat De Stad Maar Slapen",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT189.613515S",
+        "durationLabel": "3:10",
+        "songer": "https://songer.co/song/mylws7b2y1vi3wsbuqss8k8e"
       },
       {
         "position": 8,
@@ -812,11 +833,14 @@
         "theme": "Disco house · English",
         "description": "Midnight Chemistry by Dorado Project, from Frequency Flashback. Chairs move into the hallway and two people discover that dancing together says more than a carefully prepared line.",
         "story": "Chairs move into the hallway and two people discover that dancing together says more than a carefully prepared line.",
-        "creativeDirection": "The production brief calls for disco house with female agile mezzo and male falsetto responses. Original English French-touch disco house, 126 BPM, agile female lead, male falsetto answers, original choppy string riff, filtered guitar, octave bass, four-on-floor drums. Gradual filter lift, joyful concise hooks.",
+        "creativeDirection": "Connection arrives in the middle of a crowded room, just when carefully chosen words stop being useful.",
         "scene": "Chairs move into the hallway and two people discover that dancing together says more than a carefully prepared line.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Midnight Chemistry",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT242.253515S",
+        "durationLabel": "4:02",
+        "songer": "https://songer.co/song/tb0h4hsepzqubnzu7xf5sgud"
       },
       {
         "position": 9,
@@ -826,11 +850,14 @@
         "theme": "Hip hop pop · Dutch",
         "description": "Geen Bereik by Dorado Project, from Frequency Flashback. A Dutch rap-pop song explores connection and being present when a phone signal cannot do the work for you.",
         "story": "A Dutch rap-pop song explores connection and being present when a phone signal cannot do the work for you.",
-        "creativeDirection": "The production brief calls for hip hop pop with male dry conversational rap and female melodic refrain. Original Dutch 00s hip-hop pop, 96 BPM, witty male conversational rap and airy female melodic hook, dry boom-bap drums, plucked bass, jazz guitar, Rhodes. Clear storytelling, relaxed pocket, uncluttered warm mix.",
+        "creativeDirection": "Sometimes being unreachable is the first step toward giving the people beside you your attention.",
         "scene": "A Dutch rap-pop song explores connection and being present when a phone signal cannot do the work for you.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Geen Bereik",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT133.613515S",
+        "durationLabel": "2:14",
+        "songer": "https://songer.co/song/s4s8tve01f4vg7deol80a52h"
       },
       {
         "position": 10,
@@ -840,11 +867,14 @@
         "theme": "Synth pop · English",
         "description": "Blue Light Boulevard by Dorado Project, from Frequency Flashback. A laundromat, a bag of belongings and a late conversation turn an anonymous boulevard into a possible place to belong.",
         "story": "A laundromat, a bag of belongings and a late conversation turn an anonymous boulevard into a possible place to belong.",
-        "creativeDirection": "The production brief calls for synth pop with male soft low tenor with breathy layered doubles. Original English 80s-influenced 00s synthpop, 108 BPM, soft low male tenor, warm analog pads, sequenced bass, gated snare, crystalline arpeggios. Melancholy road-song atmosphere, melodic chorus, spacious instrumental break.",
+        "creativeDirection": "Along the blue-lit street, the search for somewhere to belong becomes a conversation between strangers.",
         "scene": "A laundromat, a bag of belongings and a late conversation turn an anonymous boulevard into a possible place to belong.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Blue Light Boulevard",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT244.373515S",
+        "durationLabel": "4:04",
+        "songer": "https://songer.co/song/f2gskmu176dejzkpvv0tkm84"
       },
       {
         "position": 11,
@@ -854,11 +884,14 @@
         "theme": "Soul ballad · Dutch",
         "description": "Zeg Het Zonder Woorden by Dorado Project, from Frequency Flashback. A glass of water, a repaired button and a moved lamp express care through practical gestures.",
         "story": "A glass of water, a repaired button and a moved lamp express care through practical gestures.",
-        "creativeDirection": "The production brief calls for soul ballad with female mature warm contralto. Original Dutch 90s soul ballad, 70 BPM, mature warm female contralto, grand piano, Hammond, expressive bass, live brushed-to-full drums, restrained strings, quiet backing trio. Intimate phrasing, strong controlled emotional climax.",
+        "creativeDirection": "Care takes the form of ordinary actions: noticing tiredness, fixing a button and staying in the room.",
         "scene": "A glass of water, a repaired button and a moved lamp express care through practical gestures.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Zeg Het Zonder Woorden",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT235.173515S",
+        "durationLabel": "3:55",
+        "songer": "https://songer.co/song/vblohzig67ywr1lcmjq9fufk"
       },
       {
         "position": 12,
@@ -868,11 +901,14 @@
         "theme": "Latin pop · English",
         "description": "Turn Up The Summer by Dorado Project, from Frequency Flashback. A sunny duet carries the album toward a shared summer celebration, built around movement and an open invitation.",
         "story": "A sunny duet carries the album toward a shared summer celebration, built around movement and an open invitation.",
-        "creativeDirection": "The production brief calls for latin pop with male sunny tenor and female duet answers. Original English 00s Latin pop, 104 BPM, sunny male tenor with female duet responses, nylon guitar, congas, shakers, lively horn answers, deep bass. Salsa-tinged pop groove, playful call-response, bright live feel.",
+        "creativeDirection": "The summer invitation is simple: come closer, move together and let a good day last a little longer.",
         "scene": "A sunny duet carries the album toward a shared summer celebration, built around movement and an open invitation.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Turn Up The Summer",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT195.173515S",
+        "durationLabel": "3:15",
+        "songer": "https://songer.co/song/ewvrnb72e6diar62awl2lqkh"
       },
       {
         "position": 13,
@@ -882,11 +918,14 @@
         "theme": "Pop rock · Dutch",
         "description": "Recht Door Zee by Dorado Project, from Frequency Flashback. A narrator gives up hiding honest answers behind jokes and begins to speak in a voice of his own.",
         "story": "A narrator gives up hiding honest answers behind jokes and begins to speak in a voice of his own.",
-        "creativeDirection": "The production brief calls for pop rock with male resonant gravelly baritone. Original Dutch 90s pop rock, 132 BPM, resonant gravelly male baritone, jangly electric rhythm, crunchy chorus guitars, driving acoustic drums, melodic bass. Assertive singalong hook, brief lyrical guitar solo, earthy mix.",
+        "creativeDirection": "The song follows the relief of dropping the detours and saying what you actually mean.",
         "scene": "A narrator gives up hiding honest answers behind jokes and begins to speak in a voice of his own.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Recht Door Zee",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT211.613515S",
+        "durationLabel": "3:32",
+        "songer": "https://songer.co/song/f56pm5fofa7mh9vgjx7cnvyr"
       },
       {
         "position": 14,
@@ -896,11 +935,14 @@
         "theme": "UK garage · English",
         "description": "After The Last Train by Dorado Project, from Frequency Flashback. The last train has gone, leaving two people a riverside walk and unexpected time to grow closer.",
         "story": "The last train has gone, leaving two people a riverside walk and unexpected time to grow closer.",
-        "creativeDirection": "The production brief calls for uk garage with female light agile soprano. Original English late-90s UK garage, 130 BPM, agile light female soprano, shuffled two-step drums, warm sub bass, Rhodes chords, original chopped vocal textures. Tender urban narrative, spacious verses, uplifting hook.",
+        "creativeDirection": "A missed departure opens up a route through the city that neither person had expected.",
         "scene": "The last train has gone, leaving two people a riverside walk and unexpected time to grow closer.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying After The Last Train",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT223.253515S",
+        "durationLabel": "3:43",
+        "songer": "https://songer.co/song/v4botp0uypncbb2mekwb1e6y"
       },
       {
         "position": 15,
@@ -910,11 +952,14 @@
         "theme": "Funk pop · Dutch",
         "description": "Dansvloerfilosofie by Dorado Project, from Frequency Flashback. Loose shoelaces and a crowded dance floor offer a playful answer to questions too large to solve in one evening.",
         "story": "Loose shoelaces and a crowded dance floor offer a playful answer to questions too large to solve in one evening.",
-        "creativeDirection": "The production brief calls for funk pop with female cheeky rhythmic mezzo and small mixed backing group. Original Dutch funk pop, 112 BPM, cheeky rhythmic female mezzo, tight syncopated bass, wah guitar, dry live drums, clavinet, punchy brass. Playful spoken pickup, stop-time hook, short bass break, raw joyful pocket.",
+        "creativeDirection": "Big questions meet practical feet: a playful song about enjoying a moment without explaining everything.",
         "scene": "Loose shoelaces and a crowded dance floor offer a playful answer to questions too large to solve in one evening.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Dansvloerfilosofie",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT154.933515S",
+        "durationLabel": "2:35",
+        "songer": "https://songer.co/song/csvmit0tf9mqipq6vqceov5r"
       },
       {
         "position": 16,
@@ -924,11 +969,14 @@
         "theme": "Country pop · English",
         "description": "Halfway To Anywhere by Dorado Project, from Frequency Flashback. An overpacked car and an uncertain destination turn a weekend road trip into an invitation to stop overplanning.",
         "story": "An overpacked car and an uncertain destination turn a weekend road trip into an invitation to stop overplanning.",
-        "creativeDirection": "The production brief calls for country pop with male earthy mid tenor and female close harmonies. Original English 00s country pop, 100 BPM, earthy male tenor with close female harmonies, strummed acoustic guitar, gentle banjo, pedal steel, steady live drums. Warm road-trip story, strong melodic hook, natural spacious mix.",
+        "creativeDirection": "The journey matters more than the point on the map, especially with the right person in the passenger seat.",
         "scene": "An overpacked car and an uncertain destination turn a weekend road trip into an invitation to stop overplanning.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Halfway To Anywhere",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT193.533515S",
+        "durationLabel": "3:14",
+        "songer": "https://songer.co/song/uke4fiqini1m9jkf95kp2nc9"
       },
       {
         "position": 17,
@@ -938,11 +986,14 @@
         "theme": "Trance pop · Dutch",
         "description": "Alles Wat Nog Komt by Dorado Project, from Frequency Flashback. Moving boxes, unfamiliar keys and an empty room make space for a new home and a future not yet decided.",
         "story": "Moving boxes, unfamiliar keys and an empty room make space for a new home and a future not yet decided.",
-        "creativeDirection": "The production brief calls for trance pop with female clear soaring soprano. Original Dutch melodic trance pop, 136 BPM, clear soaring female soprano, original supersaw motif, rolling bass, precise kick, airy pads. Patient instrumental opening, emotional breakdown, wide euphoric final drop, transparent mix.",
+        "creativeDirection": "A new beginning can feel empty and exciting at once; the unfamiliar room is allowed to become your own.",
         "scene": "Moving boxes, unfamiliar keys and an empty room make space for a new home and a future not yet decided.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Alles Wat Nog Komt",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT217.613515S",
+        "durationLabel": "3:38",
+        "songer": "https://songer.co/song/eu79sr99btzxooycvke9gljz"
       },
       {
         "position": 18,
@@ -952,11 +1003,14 @@
         "theme": "Alternative rock · English",
         "description": "Borrowed Leather by Dorado Project, from Frequency Flashback. A borrowed jacket becomes an image for carrying someone else's temper, until the narrator chooses to take it off.",
         "story": "A borrowed jacket becomes an image for carrying someone else's temper, until the narrator chooses to take it off.",
-        "creativeDirection": "The production brief calls for alternative rock with female gritty chest voice. Original English 90s alternative rock, 124 BPM, gritty female chest voice, dark clean verse guitar, overdriven chorus, muscular bass, live drums, feedback texture. Quiet-loud dynamics, irregular verse phrasing, fierce grounded hook.",
+        "creativeDirection": "An old jacket holds someone else's weather. Taking it off becomes a decision about who gets to define you.",
         "scene": "A borrowed jacket becomes an image for carrying someone else's temper, until the narrator chooses to take it off.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Borrowed Leather",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT202.413515S",
+        "durationLabel": "3:22",
+        "songer": "https://songer.co/song/m13d6epd42qmppxhv8aecohz"
       },
       {
         "position": 19,
@@ -966,11 +1020,14 @@
         "theme": "Piano pop · Dutch",
         "description": "Klein Groot Geluk by Dorado Project, from Frequency Flashback. Coffee, the newspaper, a dog and everyday conversation reveal a small happiness that needs no grand occasion.",
         "story": "Coffee, the newspaper, a dog and everyday conversation reveal a small happiness that needs no grand occasion.",
-        "creativeDirection": "The production brief calls for piano pop with male tender light tenor. Original Dutch intimate piano pop, 80 BPM, tender light male tenor, felt piano, cello, delicate acoustic guitar, soft kick entering second chorus. Understated everyday imagery, no bombastic choir, gentle hopeful resolution.",
+        "creativeDirection": "The smallest details of a shared morning turn out to be enough.",
         "scene": "Coffee, the newspaper, a dog and everyday conversation reveal a small happiness that needs no grand occasion.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying Klein Groot Geluk",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT188.413515S",
+        "durationLabel": "3:08",
+        "songer": "https://songer.co/song/il16u3ly7j4ye5n4d8xvwqfc"
       },
       {
         "position": 20,
@@ -980,12 +1037,17 @@
         "theme": "Gospel disco pop · English",
         "description": "One More Sunrise by Dorado Project, from Frequency Flashback. People arrive with different stories and voices, making room at the table for one more person and one more morning.",
         "story": "People arrive with different stories and voices, making room at the table for one more person and one more morning.",
-        "creativeDirection": "The production brief calls for gospel disco pop with female rich alto lead and mixed gospel ensemble. Original English gospel disco pop finale, 120 BPM, rich female alto with mixed gospel ensemble, live piano, joyful brass, strings, octave bass, stomping disco drums. Solo opening, call-response bridge, communal big final chorus.",
+        "creativeDirection": "The album closes by making room for different voices, different stories and anyone still coming home.",
         "scene": "People arrive with different stories and voices, making room at the table for one more person and one more morning.",
         "image": "assets/albums/frequency-flashback/cover.webp",
         "imageAlt": "Frequency Flashback album artwork by Dorado Project, accompanying One More Sunrise",
-        "artworkCaption": "This track uses the shared Frequency Flashback album cover."
+        "artworkCaption": "The Frequency Flashback album cover accompanies this track.",
+        "duration": "PT251.533515S",
+        "durationLabel": "4:12",
+        "songer": "https://songer.co/song/z7hzwuqe5i40d8i4cyaxbfyr"
       }
-    ]
+    ],
+    "duration": "PT4030.4303S",
+    "durationLabel": "67 min 10 sec"
   }
 ]
