@@ -114,3 +114,36 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:28px clamp(24
   nav{gap:clamp(8px,3vw,12px);font-size:clamp(.7rem,3.3vw,.78rem)}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.cover-wrap,.button{transition:none}}
+
+/* Daylight palette shared with the artist profile. Cover artwork keeps its own colours. */
+:root{--bg:#f7f4eb;--bg2:#e3f2ed;--panel:#fffdf7;--text:#153c43;--muted:#45666b;--line:rgba(21,60,67,.16);--accent:#795118;--radius:24px;color-scheme:light}
+body,body.story-page{background:radial-gradient(ellipse at 95% 2%,rgba(88,191,181,.22),transparent 32%),radial-gradient(ellipse at 0% 28%,rgba(240,199,106,.12),transparent 28%),#f7f4eb}
+body .site-header{background:rgba(250,248,240,.92);border-bottom-color:var(--line);backdrop-filter:blur(16px)}
+body .site-header.scrolled{background:rgba(250,248,240,.97)}
+body .brand-mark{color:var(--accent);border-color:#ad8138;background:#fff9e7;box-shadow:none;flex-shrink:0}
+body nav{color:#315a60}body nav a:hover{color:#153c43;text-decoration:underline;text-underline-offset:5px}
+body .hero-glow{background:radial-gradient(circle,rgba(93,195,181,.24),transparent 68%);filter:blur(28px)}
+body h1 span{-webkit-text-stroke:1.5px #315a60;text-stroke:1.5px #315a60}
+body .eyebrow,body .release-kicker,body .release-detail-link,body .back-link,body .release-genre,body .breadcrumbs a,body .album-story a,body .version-section a,body .album-link,body .track-number,body .track-navigation span{color:var(--accent)}
+body .tagline,body .about-copy,body .story-intro,body .story-back,body .story-text,body .art-caption,body .track-theme,body .breadcrumbs,body footer,body .photo-card figcaption{color:var(--muted)}
+body .story-text strong{color:var(--text)}
+body .button-secondary{color:#234e55;border-color:#6f9895;background:rgba(255,253,247,.75)}
+body .button-secondary:hover{background:#d9eeE8;border-color:#315a60}
+body .button-primary{background:linear-gradient(135deg,#f0c76a,#deb04e);color:#263b35;box-shadow:0 10px 26px rgba(143,102,31,.12)}
+body .hero-art{background:#d8eee6;box-shadow:0 24px 70px rgba(27,83,79,.13);overflow:hidden}
+body .hero-art::before,body .hero-art::after{display:none}
+.hero-record{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%}
+body .scroll-cue{color:#45666b}body .scroll-cue span{color:var(--accent)}
+body .cover-wrap{box-shadow:0 16px 40px rgba(25,65,69,.14)}
+body .cover-title,body .story-cover-title{color:#f4f1e8}
+body .pill{color:#315a60;background:#e4f1ec;border-color:#b1ceC5}
+body .spotify-panel,body .about-panel,body .more-music{background:rgba(255,253,247,.85);border-color:var(--line);box-shadow:0 14px 46px rgba(25,65,69,.035)}
+body .album-home-section,body .track-tile,body .track-navigation a{border-color:var(--line)}
+body .track-tile,body .seasonal-link{background:rgba(255,253,247,.8)}
+body .release-feature img,body .photo-card img{box-shadow:0 18px 48px rgba(25,65,69,.15)}
+body .release-detail-link:hover,body .story-back:hover{color:#153c43}
+body .photo-card figcaption span{color:var(--accent)}
+body .cta,body .story-quote{background:radial-gradient(ellipse at center,rgba(107,197,180,.18),transparent 65%)}
+body :is(a,button):focus-visible{outline:3px solid #1a7772;outline-offset:5px}
+body .grain{opacity:.018}
+.footer-links{display:flex;gap:22px;flex-wrap:wrap}.footer-links a{text-decoration:underline;text-underline-offset:4px}

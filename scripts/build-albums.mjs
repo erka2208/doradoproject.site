@@ -17,7 +17,7 @@ function page({ title, description, path, image, alt, type, graph, content }) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#07141c">
+  <meta name="theme-color" content="#f7f4eb">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -38,7 +38,7 @@ function page({ title, description, path, image, alt, type, graph, content }) {
   <meta name="twitter:image" content="${abs(image)}">
   <meta name="twitter:image:alt" content="${esc(alt)}">
   <script type="application/ld+json">${json({ '@context': 'https://schema.org', '@graph': graph })}</script>
-  <link rel="stylesheet" href="/styles.css?v=5">
+  <link rel="stylesheet" href="/styles.css?v=6">
   <link rel="stylesheet" href="/release.css?v=1">
   <link rel="stylesheet" href="/album.css?v=3">
 </head>
