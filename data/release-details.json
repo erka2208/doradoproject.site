@@ -62,6 +62,9 @@
       "en"
     ],
     "duration": "PT597.90839S",
+    "audioManifestUrl": "https://doradoproject.com/assets/audio/de-zaal-gaat-dicht-wij-nog-niet-parts/manifest.json",
+    "audioLoaderUrl": "https://doradoproject.com/assets/audio/de-zaal-gaat-dicht-wij-nog-niet-parts/loader.js",
+    "audioEmbedUrl": "https://doradoproject.com/releases/de-zaal-gaat-dicht-wij-nog-niet.html#suite-player",
     "spotify": "https://open.spotify.com/track/1B81wX3KBnCGVl0UyMaygv",
     "hyperfollow": "https://distrokid.com/hyperfollow/doradoproject/de-zaal-gaat-dicht-wij-nog-niet"
   }
