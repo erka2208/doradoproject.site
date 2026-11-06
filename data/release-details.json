@@ -62,11 +62,7 @@
       "en"
     ],
     "duration": "PT597.90839S",
-    "audioManifestUrl": "https://doradoproject.com/assets/audio/de-zaal-gaat-dicht-wij-nog-niet-parts/manifest.json",
-    "audioLoaderUrl": "https://doradoproject.com/assets/audio/de-zaal-gaat-dicht-wij-nog-niet-parts/loader.js",
-    "audioEmbedUrl": "https://doradoproject.com/releases/de-zaal-gaat-dicht-wij-nog-niet.html#suite-player",
-    "spotify": "https://open.spotify.com/track/1B81wX3KBnCGVl0UyMaygv",
-    "hyperfollow": "https://distrokid.com/hyperfollow/doradoproject/de-zaal-gaat-dicht-wij-nog-niet"
+    "spotify": "https://open.spotify.com/track/1B81wX3KBnCGVl0UyMaygv"
   },
   "room-for-the-noise": {
     "pageTitle": "Room for the Noise — melodic funk rock | Dorado Project",
@@ -74,6 +70,7 @@
     "storyTitle": "You do not have to whisper",
     "story": "A third-floor kitchen after two in the morning, a broken chair, rain in someone’s hair. When one person says they take up too much space, the answer is to clear the table and make a place. Room for the Noise turns those small domestic moments into a song about belonging. Its central promise is simple: you do not have to whisper to be welcome. The musical direction pairs a restless bass-led groove with a warm sung chorus, an intimate halftime bridge and an expanded final chorus. Created with AI for lyrics, composition and generated audio under the creative direction of Rutger Kussendrager.",
     "language": "en",
-    "duration": "PT222.373515S"
+    "duration": "PT222.373515S",
+    "spotify": "https://open.spotify.com/track/3gQMnpLdtT9WWnYGZoVWfC"
   }
 }
