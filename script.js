@@ -30,7 +30,7 @@ if ('IntersectionObserver' in window) {
   const results = document.getElementById('music-search-results');
   const status = document.getElementById('music-search-status');
   const clear = document.getElementById('music-search-clear');
-  const browse = [...section.children].filter(el => el !== panel && !el.classList.contains('section-heading'));
+  const browse = [...section.children].filter(el => el !== panel && el !== section.firstElementChild);
   const normalize = text => String(text).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[’‘']/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
   let catalogue;
   let request;
@@ -84,5 +84,8 @@ if ('IntersectionObserver' in window) {
   clear.addEventListener('click', () => { input.value = ''; search(); input.focus(); });
   input.addEventListener('keydown', event => { if (event.key === 'Escape') { input.value = ''; search(); } });
   input.closest('form').addEventListener('submit', event => { event.preventDefault(); search(); });
+  document.querySelectorAll('a[href="#albums"], a[href="#singles"]').forEach(anchor => {
+    anchor.addEventListener('click', () => { input.value = ''; search(); });
+  });
   panel.hidden = false;
 })();
