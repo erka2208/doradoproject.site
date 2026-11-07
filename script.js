@@ -36,7 +36,7 @@ if ('IntersectionObserver' in window) {
   let request;
   let revision = 0;
   function load() {
-    if (!request) request = fetch('/data/search-index.json').then(response => {
+    if (!request) request = fetch('/data/search-index.json', { cache: 'no-cache' }).then(response => {
       if (!response.ok) throw new Error('Search unavailable');
       return response.json();
     }).then(items => items.map(item => ({ ...item, searchText: normalize([item.title, item.genre, item.album, item.description].join(' ')), titleText: normalize(item.title) }))).catch(error => { request = null; throw error; });
