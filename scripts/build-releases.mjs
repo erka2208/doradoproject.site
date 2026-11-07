@@ -129,3 +129,7 @@ for (const [file, content] of files) {
 }
 if (check && changed) process.exitCode = 1;
 console.log(`${releases.length} release pages; ${changed} ${check ? 'out of date' : 'updated'} files.`);
+
+// Keep search in sync whenever release and album pages are regenerated.
+const { buildSearch } = await import('./build-search.mjs');
+await buildSearch({ check });

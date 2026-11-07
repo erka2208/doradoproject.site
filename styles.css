@@ -159,3 +159,21 @@ body .mountain-hero .hero-glow{display:none}
   .mountain-hero::before{background:linear-gradient(180deg,rgba(247,244,235,.1) 0%,rgba(247,244,235,.22) 30%,rgba(247,244,235,.9) 62%,#f7f4eb 100%)}
   .mountain-hero::after{background:linear-gradient(180deg,rgba(247,244,235,.2),transparent 25%,rgba(247,244,235,.2) 52%,#f7f4eb 100%)}
 }
+
+/* Catalogue search. Native hidden must win over card/grid display styles. */
+[hidden]{display:none!important}
+#releases{scroll-margin-top:90px}
+.music-search-panel{margin:0 0 42px;padding:clamp(20px,3vw,30px);border:1px solid var(--line);border-radius:24px;background:var(--panel)}
+.music-search-panel label{display:block;font-size:1.2rem;font-weight:800;margin-bottom:10px}
+.music-search-controls{display:flex;align-items:center;gap:10px}
+.music-search-controls input{min-width:0;flex:1;width:100%;font:inherit;color:var(--text);background:#fff;border:1px solid #6f9895;border-radius:14px;padding:14px 16px}
+.music-search-controls button{font:inherit;cursor:pointer;flex-shrink:0}
+.music-search-hint,.music-search-status{color:var(--muted);font-size:.9rem;margin:10px 0 0}
+.music-search-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:22px}
+.music-search-results:empty{display:none}
+.search-result{min-width:0;display:flex;flex-direction:column;padding:22px;border:1px solid var(--line);border-radius:18px;background:#f7f4eb}
+.search-result .eyebrow{letter-spacing:.1em;margin-bottom:12px}
+.search-result h3{font-size:1.5rem;line-height:1.15;overflow-wrap:anywhere;margin-bottom:12px}
+.search-result-title{text-decoration:underline;text-underline-offset:4px}
+.search-result>p:not(.eyebrow){color:var(--muted)}
+@media(max-width:700px){.music-search-results{grid-template-columns:1fr}.music-search-controls{flex-wrap:wrap}.music-search-controls input{flex-basis:100%}}

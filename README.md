@@ -54,3 +54,7 @@ The data filename is historical: it also supports non-Halloween albums. Set `cat
 - Public pages use crawlable HTML, permanent canonical URLs, Open Graph images, MusicAlbum/MusicRecording JSON-LD and breadcrumbs. Parts are separate recordings and link to one another.
 - Use meaningful genre/theme terms naturally in the copy. Meta-keyword lists, repeated search terms and claims of guaranteed rankings or AI inclusion are not part of the workflow.
 - Run the generation check and page validator before every publication. Validation checks unique titles/descriptions/canonicals, JSON syntax, sitemap membership, local links/images and incoming crawlable links for all public pages.
+
+## Music search
+
+The homepage search includes singles, albums and every individual album track. `scripts/build-releases.mjs` automatically regenerates `data/search-index.json` from the public pages, and `--check` verifies it. Regenerate and commit this index with new releases.
