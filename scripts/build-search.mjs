@@ -1,5 +1,24 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 const root = new URL('../', import.meta.url);
+// Compare each homepage music card with its own local search destination.
+// Never infer a track's Spotify URL from its title or another card.
+export function validateHomepageSpotify(items, homepage) {
+  const failures = [];
+  for (const [card] of homepage.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/gi)) {
+    const links = [...card.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
+      .map(([, href]) => new URL(href.replaceAll('&amp;', '&'), 'https://doradoproject.com/'));
+    const spotify = links.find(url => url.origin === 'https://open.spotify.com' && /^\/(track|album)\/[A-Za-z0-9]{22}\/?$/.test(url.pathname));
+    if (!spotify) continue;
+    const destinations = new Set(links.filter(url => url.origin === 'https://doradoproject.com' && url.pathname.endsWith('.html')).map(url => url.pathname));
+    for (const path of destinations) {
+      const item = items.find(item => item.url === path);
+      if (!item?.spotify) failures.push(`${path}: missing Spotify link in search index (homepage: ${spotify.href}); check page sameAs metadata`);
+      else if (item.spotify !== spotify.href) failures.push(`${path}: search Spotify link differs from homepage (${spotify.href})`);
+    }
+  }
+  if (failures.length) throw new Error(`Search Spotify validation failed:\n- ${failures.join('\n- ')}`);
+}
+
 export async function buildSearch({ check = false } = {}) {
   const items = [];
   async function walk(dir) {
@@ -21,6 +40,7 @@ export async function buildSearch({ check = false } = {}) {
     }
   }
   await walk('');
+  validateHomepageSpotify(items, await readFile(new URL('index.html', root), 'utf8'));
   items.sort((a, b) => a.title.localeCompare(b.title, 'nl'));
   const content = JSON.stringify(items) + '\n';
   const target = new URL('data/search-index.json', root);
