@@ -58,3 +58,5 @@ The data filename is historical: it also supports non-Halloween albums. Set `cat
 ## Music search
 
 The homepage search includes singles, albums and every individual album track. `scripts/build-releases.mjs` automatically regenerates `data/search-index.json` from the public pages, and `--check` verifies it. Regenerate and commit this index with new releases.
+
+Direct Spotify links belong in the music page's JSON-LD `sameAs` field. Search generation rejects missing or mismatched Spotify links when the corresponding homepage card already has a valid direct track or album link. Fix the source metadata rather than editing the generated index. Run `node --test scripts/build-search.test.mjs` for the targeted regression checks; CI runs them too.
