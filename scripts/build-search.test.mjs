@@ -40,3 +40,62 @@ test('generated CHAMONIX entry preserves the photo story and has the verified Sp
   const homepage = await readFile(new URL('../index.html', import.meta.url), 'utf8');
   assert.doesNotThrow(() => validateHomepageSpotify(entries, homepage));
 });
+
+// Exercise the normalization and matching expressions from the shipped browser code.
+async function searchCatalogue(query) {
+  const { runInNewContext } = await import('node:vm');
+  const source = await readFile(new URL('../script.js', import.meta.url), 'utf8');
+  const normalizeSource = source.match(/const normalize = ([^\n]+);/)[1];
+  const normalize = runInNewContext(`(${normalizeSource})`);
+  const filterSource = source.match(/catalogue\.filter\((.*?)\)\.sort/)[1];
+  const tokens = normalize(query).split(' ');
+  const matches = runInNewContext(`(${filterSource})`, { tokens });
+  const entries = JSON.parse(await readFile(new URL('../data/search-index.json', import.meta.url), 'utf8'));
+  return entries.map(item => ({ ...item, searchText: normalize([item.title, item.genre, item.album, item.description].join(' ')) })).filter(matches);
+}
+
+for (const [query, titles] of [
+  ['piano house', ['Neon Under Skin', "Everybody's Awake Somewhere"]],
+  ['acid house', ['Static in My Blood']],
+  ['deep house', ['Before the First Train']],
+  ['breakbeat', ['Somewhere Between Stations']],
+  ['ambient house', ['Daylight Finds Us']],
+  ['dub house', ['The Room Behind the Noise']],
+  ['UK garage', ['After The Last Train']],
+  ['disco house', ['Midnight Chemistry']],
+]) {
+  test(`browser search finds the expected tracks for ${query}`, async () => {
+    const matches = await searchCatalogue(query);
+    for (const title of titles) assert.ok(matches.some(item => item.title === title), `${query}: missing ${title}`);
+  });
+}
+
+test('all album tracks preserve album genres and include explicit track genres in metadata and index', async () => {
+  const { buildAlbums } = await import('./build-albums.mjs');
+  const root = new URL('../', import.meta.url);
+  const albums = JSON.parse(await readFile(new URL('data/halloween-albums.json', root), 'utf8'));
+  const entries = JSON.parse(await readFile(new URL('data/search-index.json', root), 'utf8'));
+  const { files } = await buildAlbums(root);
+  for (const album of albums) for (const track of album.tracks) {
+    const path = `albums/${album.slug}/${track.slug}.html`;
+    const html = files.get(path);
+    const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+    const recording = schema['@graph'].find(node => node['@type'] === 'MusicRecording');
+    const entry = entries.find(item => item.url === `/${path}`);
+    assert.ok(entry, path);
+    assert.equal(entry.genre, recording.genre.join(' / '), `${path}: metadata/index mismatch`);
+    const genres = recording.genre.map(value => value.toLowerCase());
+    assert.equal(new Set(genres).size, genres.length, `${path}: duplicate genres`);
+    for (const genre of [...album.genre, ...[track.genre || []].flat()]) {
+      assert.ok(genres.includes(genre.toLowerCase()), `${path}: missing ${genre}`);
+    }
+  }
+});
+
+test('track genre handling supports strings, whitespace, duplicates and missing genres', async () => {
+  const { trackGenres } = await import('./build-albums.mjs');
+  assert.deepEqual(trackGenres({ genre: ['Progressive House', 'Electronic'] }, { genre: [' progressive house ', 'Piano house', ''] }), ['Progressive House', 'Electronic', 'Piano house']);
+  assert.deepEqual(trackGenres({ genre: 'Electronic' }, { genre: 'Acid house' }), ['Electronic', 'Acid house']);
+  assert.deepEqual(trackGenres({ genre: ['Electronic'] }, { theme: 'A scene in the forest' }), ['Electronic']);
+  assert.deepEqual(trackGenres({}, {}), []);
+});

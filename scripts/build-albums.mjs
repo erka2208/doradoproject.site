@@ -8,7 +8,18 @@ const albumPath = (a) => `albums/${a.slug}.html`;
 const trackPath = (a, t) => `albums/${a.slug}/${t.slug}.html`;
 const abs = (path) => `${origin}/${path}`;
 const breadcrumbs = (items) => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name, path], i) => ({ '@type': 'ListItem', position: i + 1, name, item: abs(path) })) });
-const albumSchema = (a) => ({ '@type': 'MusicAlbum', '@id': `${abs(albumPath(a))}#album`, name: a.title, url: abs(albumPath(a)), image: abs(a.image), description: a.description, byArtist: artist, genre: a.genre, ...(a.language ? { inLanguage: a.language } : {}), numTracks: a.tracks.length, albumReleaseType: 'https://schema.org/AlbumRelease', track: { '@type': 'ItemList', numberOfItems: a.tracks.length, itemListElement: a.tracks.map((t) => ({ '@type': 'ListItem', position: t.position, item: { '@type': 'MusicRecording', '@id': `${abs(trackPath(a, t))}#recording`, name: t.title, url: abs(trackPath(a, t)), ...(t.duration ? { duration: t.duration } : {}) } })) }, ...(a.duration ? { duration: a.duration } : {}), ...(a.spotify ? { sameAs: a.spotify } : {}) });
+// Explicit track genres augment album genres. Themes may be stories, not styles.
+export function trackGenres(album, track) {
+  const genres = [...[album.genre || []].flat(), ...[track.genre || []].flat()];
+  const seen = new Set();
+  return genres.map(genre => genre.trim()).filter(genre => {
+    const key = genre.toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+const albumSchema = (a) => ({ '@type': 'MusicAlbum', '@id': `${abs(albumPath(a))}#album`, name: a.title, url: abs(albumPath(a)), image: abs(a.image), description: a.description, byArtist: artist, genre: a.genre, ...(a.language ? { inLanguage: a.language } : {}), numTracks: a.tracks.length, albumReleaseType: 'https://schema.org/AlbumRelease', track: { '@type': 'ItemList', numberOfItems: a.tracks.length, itemListElement: a.tracks.map((t) => ({ '@type': 'ListItem', position: t.position, item: { '@type': 'MusicRecording', '@id': `${abs(trackPath(a, t))}#recording`, name: t.title, url: abs(trackPath(a, t)), ...(t.genre ? { genre: trackGenres(a, t) } : {}), ...(t.duration ? { duration: t.duration } : {}) } })) }, ...(a.duration ? { duration: a.duration } : {}), ...(a.spotify ? { sameAs: a.spotify } : {}) });
 
 function page({ title, description, path, image, alt, type, graph, content }) {
   const url = abs(path);
@@ -112,7 +123,7 @@ export async function buildAlbums(root) {
       const versions = t.baseTitle ? a.tracks.filter((v) => v.baseTitle === t.baseTitle && v.slug !== t.slug) : [];
       const previous = a.tracks[t.position - 2];
       const next = a.tracks[t.position];
-      const recording = { '@type': 'MusicRecording', '@id': `${abs(tp)}#recording`, name: t.title, url: abs(tp), image: abs(t.image), description: t.description, byArtist: artist, inAlbum: { '@type': 'MusicAlbum', '@id': `${abs(ap)}#album`, name: a.title, url: abs(ap) }, genre: a.genre, ...(a.language ? { inLanguage: a.language } : {}), ...(t.duration ? { duration: t.duration } : {}), ...(t.spotify ? { sameAs: t.spotify } : {}) };
+      const recording = { '@type': 'MusicRecording', '@id': `${abs(tp)}#recording`, name: t.title, url: abs(tp), image: abs(t.image), description: t.description, byArtist: artist, inAlbum: { '@type': 'MusicAlbum', '@id': `${abs(ap)}#album`, name: a.title, url: abs(ap) }, genre: trackGenres(a, t), ...(a.language ? { inLanguage: a.language } : {}), ...(t.duration ? { duration: t.duration } : {}), ...(t.spotify ? { sameAs: t.spotify } : {}) };
       const songerAction = t.songer ? `<a class="button button-secondary" href="${esc(t.songer)}" target="_blank" rel="noopener noreferrer">Listen on Songer →</a>` : '';
       const action = (t.spotify ? `<a class="button button-primary" href="${esc(t.spotify)}" target="_blank" rel="noopener noreferrer">Listen on Spotify →</a>` : `<p class="release-note">${esc(trackNote)}</p>`) + songerAction;
       const content = `
