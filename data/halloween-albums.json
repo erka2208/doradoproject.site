@@ -37,7 +37,9 @@
         "slug": "morgen-is-van-ons",
         "language": "nl",
         "theme": "Dance pop · Dutch",
-      "genre": ["Dance pop"],
+        "genre": [
+          "Dance pop"
+        ],
         "description": "Morgen Is Van Ons by Dorado Project, from Frequency Flashback. A rainy journey ends at a warm apartment, where two people put the day aside and dance without a plan.",
         "story": "A rainy journey ends at a warm apartment, where two people put the day aside and dance without a plan.",
         "creativeDirection": "A shared room becomes a dance floor, with tomorrow left outside the door for one more night.",
@@ -56,7 +58,9 @@
         "slug": "static-hearts",
         "language": "en",
         "theme": "Pop punk · English",
-      "genre": ["Pop punk"],
+        "genre": [
+          "Pop punk"
+        ],
         "description": "Static Hearts by Dorado Project, from Frequency Flashback. Broken speakers, parking meters and a closing shift become the starting point for a loud, imperfect new beginning.",
         "story": "Broken speakers, parking meters and a closing shift become the starting point for a loud, imperfect new beginning.",
         "creativeDirection": "Young ambition survives on secondhand equipment, a little defiance and the courage to mean what you say.",
@@ -75,7 +79,9 @@
         "slug": "onder-dezelfde-zon",
         "language": "nl",
         "theme": "Reggae pop · Dutch",
-      "genre": ["Reggae pop"],
+        "genre": [
+          "Reggae pop"
+        ],
         "description": "Onder Dezelfde Zon by Dorado Project, from Frequency Flashback. Photos, familiar objects and a shared sun keep a connection alive across the distance between two homes.",
         "story": "Photos, familiar objects and a shared sun keep a connection alive across the distance between two homes.",
         "creativeDirection": "Distance changes the view from the window, but it does not erase the small things two people still share.",
@@ -94,7 +100,9 @@
         "slug": "velvet-hotline",
         "language": "en",
         "theme": "Contemporary R&B · English",
-      "genre": ["Contemporary R&B"],
+        "genre": [
+          "Contemporary R&B"
+        ],
         "description": "Velvet Hotline by Dorado Project, from Frequency Flashback. At the end of a long day of speaking for everyone else, one quiet telephone conversation makes room for an honest voice.",
         "story": "At the end of a long day of speaking for everyone else, one quiet telephone conversation makes room for an honest voice.",
         "creativeDirection": "Behind the day's public voice, a familiar person on the telephone hears the quieter one.",
@@ -113,7 +121,9 @@
         "slug": "alles-in-kleur",
         "language": "nl",
         "theme": "Eurodance · Dutch",
-      "genre": ["Eurodance"],
+        "genre": [
+          "Eurodance"
+        ],
         "description": "Alles In Kleur by Dorado Project, from Frequency Flashback. A bright dance-pop scene turns a change of perspective into a celebration of colour and possibility.",
         "story": "A bright dance-pop scene turns a change of perspective into a celebration of colour and possibility.",
         "creativeDirection": "A change of light becomes a change of mind: a song about leaving grey routines behind.",
@@ -132,7 +142,9 @@
         "slug": "paper-satellites",
         "language": "en",
         "theme": "Britpop · English",
-      "genre": ["Britpop"],
+        "genre": [
+          "Britpop"
+        ],
         "description": "Paper Satellites by Dorado Project, from Frequency Flashback. A folded council letter becomes a paper satellite above a street where rising rent and ordinary lives meet.",
         "story": "A folded council letter becomes a paper satellite above a street where rising rent and ordinary lives meet.",
         "creativeDirection": "Ordinary frustrations lift off as paper aeroplanes, finding a little humour above an expensive city.",
@@ -151,7 +163,9 @@
         "slug": "laat-de-stad-maar-slapen",
         "language": "nl",
         "theme": "Acoustic pop · Dutch",
-      "genre": ["Acoustic pop"],
+        "genre": [
+          "Acoustic pop"
+        ],
         "description": "Laat De Stad Maar Slapen by Dorado Project, from Frequency Flashback. A kitchen conversation continues while the city sleeps; listening matters more than offering easy advice.",
         "story": "A kitchen conversation continues while the city sleeps; listening matters more than offering easy advice.",
         "creativeDirection": "Two people make room for a difficult conversation without rushing to fill every silence.",
@@ -170,7 +184,9 @@
         "slug": "midnight-chemistry",
         "language": "en",
         "theme": "Disco house · English",
-      "genre": ["Disco house"],
+        "genre": [
+          "Disco house"
+        ],
         "description": "Midnight Chemistry by Dorado Project, from Frequency Flashback. Chairs move into the hallway and two people discover that dancing together says more than a carefully prepared line.",
         "story": "Chairs move into the hallway and two people discover that dancing together says more than a carefully prepared line.",
         "creativeDirection": "Connection arrives in the middle of a crowded room, just when carefully chosen words stop being useful.",
@@ -189,7 +205,9 @@
         "slug": "geen-bereik",
         "language": "nl",
         "theme": "Hip hop pop · Dutch",
-      "genre": ["Hip hop pop"],
+        "genre": [
+          "Hip hop pop"
+        ],
         "description": "Geen Bereik by Dorado Project, from Frequency Flashback. A Dutch rap-pop song explores connection and being present when a phone signal cannot do the work for you.",
         "story": "A Dutch rap-pop song explores connection and being present when a phone signal cannot do the work for you.",
         "creativeDirection": "Sometimes being unreachable is the first step toward giving the people beside you your attention.",
@@ -208,7 +226,9 @@
         "slug": "blue-light-boulevard",
         "language": "en",
         "theme": "Synth pop · English",
-      "genre": ["Synth pop"],
+        "genre": [
+          "Synth pop"
+        ],
         "description": "Blue Light Boulevard by Dorado Project, from Frequency Flashback. A laundromat, a bag of belongings and a late conversation turn an anonymous boulevard into a possible place to belong.",
         "story": "A laundromat, a bag of belongings and a late conversation turn an anonymous boulevard into a possible place to belong.",
         "creativeDirection": "Along the blue-lit street, the search for somewhere to belong becomes a conversation between strangers.",
@@ -227,7 +247,9 @@
         "slug": "zeg-het-zonder-woorden",
         "language": "nl",
         "theme": "Soul ballad · Dutch",
-      "genre": ["Soul ballad"],
+        "genre": [
+          "Soul ballad"
+        ],
         "description": "Zeg Het Zonder Woorden by Dorado Project, from Frequency Flashback. A glass of water, a repaired button and a moved lamp express care through practical gestures.",
         "story": "A glass of water, a repaired button and a moved lamp express care through practical gestures.",
         "creativeDirection": "Care takes the form of ordinary actions: noticing tiredness, fixing a button and staying in the room.",
@@ -246,7 +268,9 @@
         "slug": "turn-up-the-summer",
         "language": "en",
         "theme": "Latin pop · English",
-      "genre": ["Latin pop"],
+        "genre": [
+          "Latin pop"
+        ],
         "description": "Turn Up The Summer by Dorado Project, from Frequency Flashback. A sunny duet carries the album toward a shared summer celebration, built around movement and an open invitation.",
         "story": "A sunny duet carries the album toward a shared summer celebration, built around movement and an open invitation.",
         "creativeDirection": "The summer invitation is simple: come closer, move together and let a good day last a little longer.",
@@ -265,7 +289,9 @@
         "slug": "recht-door-zee",
         "language": "nl",
         "theme": "Pop rock · Dutch",
-      "genre": ["Pop rock"],
+        "genre": [
+          "Pop rock"
+        ],
         "description": "Recht Door Zee by Dorado Project, from Frequency Flashback. A narrator gives up hiding honest answers behind jokes and begins to speak in a voice of his own.",
         "story": "A narrator gives up hiding honest answers behind jokes and begins to speak in a voice of his own.",
         "creativeDirection": "The song follows the relief of dropping the detours and saying what you actually mean.",
@@ -284,7 +310,9 @@
         "slug": "after-the-last-train",
         "language": "en",
         "theme": "UK garage · English",
-      "genre": ["UK garage"],
+        "genre": [
+          "UK garage"
+        ],
         "description": "After The Last Train by Dorado Project, from Frequency Flashback. The last train has gone, leaving two people a riverside walk and unexpected time to grow closer.",
         "story": "The last train has gone, leaving two people a riverside walk and unexpected time to grow closer.",
         "creativeDirection": "A missed departure opens up a route through the city that neither person had expected.",
@@ -303,7 +331,9 @@
         "slug": "dansvloerfilosofie",
         "language": "nl",
         "theme": "Funk pop · Dutch",
-      "genre": ["Funk pop"],
+        "genre": [
+          "Funk pop"
+        ],
         "description": "Dansvloerfilosofie by Dorado Project, from Frequency Flashback. Loose shoelaces and a crowded dance floor offer a playful answer to questions too large to solve in one evening.",
         "story": "Loose shoelaces and a crowded dance floor offer a playful answer to questions too large to solve in one evening.",
         "creativeDirection": "Big questions meet practical feet: a playful song about enjoying a moment without explaining everything.",
@@ -322,7 +352,9 @@
         "slug": "halfway-to-anywhere",
         "language": "en",
         "theme": "Country pop · English",
-      "genre": ["Country pop"],
+        "genre": [
+          "Country pop"
+        ],
         "description": "Halfway To Anywhere by Dorado Project, from Frequency Flashback. An overpacked car and an uncertain destination turn a weekend road trip into an invitation to stop overplanning.",
         "story": "An overpacked car and an uncertain destination turn a weekend road trip into an invitation to stop overplanning.",
         "creativeDirection": "The journey matters more than the point on the map, especially with the right person in the passenger seat.",
@@ -341,7 +373,9 @@
         "slug": "alles-wat-nog-komt",
         "language": "nl",
         "theme": "Trance pop · Dutch",
-      "genre": ["Trance pop"],
+        "genre": [
+          "Trance pop"
+        ],
         "description": "Alles Wat Nog Komt by Dorado Project, from Frequency Flashback. Moving boxes, unfamiliar keys and an empty room make space for a new home and a future not yet decided.",
         "story": "Moving boxes, unfamiliar keys and an empty room make space for a new home and a future not yet decided.",
         "creativeDirection": "A new beginning can feel empty and exciting at once; the unfamiliar room is allowed to become your own.",
@@ -360,7 +394,9 @@
         "slug": "borrowed-leather",
         "language": "en",
         "theme": "Alternative rock · English",
-      "genre": ["Alternative rock"],
+        "genre": [
+          "Alternative rock"
+        ],
         "description": "Borrowed Leather by Dorado Project, from Frequency Flashback. A borrowed jacket becomes an image for carrying someone else's temper, until the narrator chooses to take it off.",
         "story": "A borrowed jacket becomes an image for carrying someone else's temper, until the narrator chooses to take it off.",
         "creativeDirection": "An old jacket holds someone else's weather. Taking it off becomes a decision about who gets to define you.",
@@ -379,7 +415,9 @@
         "slug": "klein-groot-geluk",
         "language": "nl",
         "theme": "Piano pop · Dutch",
-      "genre": ["Piano pop"],
+        "genre": [
+          "Piano pop"
+        ],
         "description": "Klein Groot Geluk by Dorado Project, from Frequency Flashback. Coffee, the newspaper, a dog and everyday conversation reveal a small happiness that needs no grand occasion.",
         "story": "Coffee, the newspaper, a dog and everyday conversation reveal a small happiness that needs no grand occasion.",
         "creativeDirection": "The smallest details of a shared morning turn out to be enough.",
@@ -398,7 +436,9 @@
         "slug": "one-more-sunrise",
         "language": "en",
         "theme": "Gospel disco pop · English",
-      "genre": ["Gospel disco pop"],
+        "genre": [
+          "Gospel disco pop"
+        ],
         "description": "One More Sunrise by Dorado Project, from Frequency Flashback. People arrive with different stories and voices, making room at the table for one more person and one more morning.",
         "story": "People arrive with different stories and voices, making room at the table for one more person and one more morning.",
         "creativeDirection": "The album closes by making room for different voices, different stories and anyone still coming home.",
@@ -576,16 +616,16 @@
     "genreLabel": "Progressive House / Electronic / Downtempo",
     "cardGenre": "Progressive House / Electronic",
     "language": "en",
-    "status": "Release submitted · 46:30 · Streaming soon",
-    "statusNote": "Submitted for release. The album is being processed by the streaming services. Direct streaming links will be added once availability is confirmed.",
-    "trackStatusNote": "Submitted for release as part of the album. Streaming links will follow once the track is available.",
+    "status": "Out now on Spotify · 46:30",
+    "statusNote": "Available now on Spotify.",
+    "trackStatusNote": "Available now on Spotify as part of the album.",
     "pageTitle": "The City Won't Switch Off — Electronic Album | Dorado Project",
-    "metaDescription": "Discover The City Won't Switch Off by Dorado Project: a ten-track electronic album awaiting release, following a restless city from midnight to dawn.",
+    "metaDescription": "Discover The City Won't Switch Off by Dorado Project: a ten-track electronic album available on Spotify, following a restless city from midnight to dawn.",
     "storyTitle": "Ten chapters between midnight and morning",
     "story": [
       "The City Won't Switch Off follows a city through its wakeful hours: lit windows, late journeys, crowded rooms and the quieter moments between them.",
       "The creative direction draws on the long-form development of 1990s progressive house, with deep bass, patient builds, spacious piano, dub textures and occasional spoken words. Each track is conceived as its own evolving journey.",
-      "The album contains ten finished tracks with a total running time of 46:30. Submitted for distribution on 11 November 2026; streaming links will be added once release availability is confirmed.",
+      "The album contains ten finished tracks with a total running time of 46:30. Submitted for distribution on 11 November 2026; now available on Spotify.",
       "Created with AI tools under the direction of Rutger Kussendrager."
     ],
     "tracks": [
@@ -595,8 +635,10 @@
         "slug": "the-city-wont-switch-off",
         "language": "en",
         "theme": "Progressive house",
-      "genre": ["Progressive house"],
-        "description": "The City Won't Switch Off by Dorado Project: track 1 of The City Won't Switch Off, an electronic album awaiting release. A lone walker crosses a rain-soaked street while windows remain lit above the sleeping shops.",
+        "genre": [
+          "Progressive house"
+        ],
+        "description": "The City Won't Switch Off by Dorado Project: track 1 of The City Won't Switch Off, an electronic album available on Spotify. A lone walker crosses a rain-soaked street while windows remain lit above the sleeping shops.",
         "story": "A lone walker crosses a rain-soaked street while windows remain lit above the sleeping shops.",
         "creativeDirection": "The opening brief builds patiently from city ambience and dub bass toward a broad progressive-house arrangement, with sparse spoken observations.",
         "scene": "A lone walker crosses a rain-soaked street while windows remain lit above the sleeping shops.",
@@ -605,7 +647,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "The City Won't Switch Off — Track 1 | Dorado Project",
         "duration": "PT4M53.48S",
-        "durationLabel": "4:53"
+        "durationLabel": "4:53",
+        "spotify": "https://open.spotify.com/track/2NGiMR2yTgG0bnIiuDWYFh"
       },
       {
         "position": 2,
@@ -613,8 +656,11 @@
         "slug": "neon-under-skin",
         "language": "en",
         "theme": "Progressive house / Piano house",
-      "genre": ["Progressive house", "Piano house"],
-        "description": "Neon Under Skin by Dorado Project: track 2 of The City Won't Switch Off, an electronic album awaiting release. A reflection in a neon-lit window becomes a small moment of recognition in an unfamiliar city.",
+        "genre": [
+          "Progressive house",
+          "Piano house"
+        ],
+        "description": "Neon Under Skin by Dorado Project: track 2 of The City Won't Switch Off, an electronic album available on Spotify. A reflection in a neon-lit window becomes a small moment of recognition in an unfamiliar city.",
         "story": "A reflection in a neon-lit window becomes a small moment of recognition in an unfamiliar city.",
         "creativeDirection": "The creative direction combines precise percussion, a rising synth motif and a fragile piano interlude, with a new counter-melody after the central break.",
         "scene": "A reflection in a neon-lit window becomes a small moment of recognition in an unfamiliar city.",
@@ -623,7 +669,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Neon Under Skin — Track 2 | Dorado Project",
         "duration": "PT4M49.16S",
-        "durationLabel": "4:49"
+        "durationLabel": "4:49",
+        "spotify": "https://open.spotify.com/track/17ZONi0nv9Ze2zVRfrXTZE"
       },
       {
         "position": 3,
@@ -631,8 +678,11 @@
         "slug": "somewhere-between-stations",
         "language": "en",
         "theme": "Progressive house / Breakbeat",
-      "genre": ["Progressive house", "Breakbeat"],
-        "description": "Somewhere Between Stations by Dorado Project: track 3 of The City Won't Switch Off, an electronic album awaiting release. A late journey stretches between two stations, suspended between leaving and arriving.",
+        "genre": [
+          "Progressive house",
+          "Breakbeat"
+        ],
+        "description": "Somewhere Between Stations by Dorado Project: track 3 of The City Won't Switch Off, an electronic album available on Spotify. A late journey stretches between two stations, suspended between leaving and arriving.",
         "story": "A late journey stretches between two stations, suspended between leaving and arriving.",
         "creativeDirection": "The arrangement brief uses a rolling bassline and spacious chords, with train-like percussion and a contrasting breakbeat passage.",
         "scene": "A late journey stretches between two stations, suspended between leaving and arriving.",
@@ -641,7 +691,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Somewhere Between Stations — Track 3 | Dorado Project",
         "duration": "PT4M44.6S",
-        "durationLabel": "4:44"
+        "durationLabel": "4:44",
+        "spotify": "https://open.spotify.com/track/4qTqLxoEjgX7Ui9vbq4edO"
       },
       {
         "position": 4,
@@ -649,8 +700,11 @@
         "slug": "everybodys-awake-somewhere",
         "language": "en",
         "theme": "Piano house / Electronic soul",
-      "genre": ["Piano house", "Electronic soul"],
-        "description": "Everybody's Awake Somewhere by Dorado Project: track 4 of The City Won't Switch Off, an electronic album awaiting release. Behind separate windows, strangers share the same wakeful hour without knowing one another.",
+        "genre": [
+          "Piano house",
+          "Electronic soul"
+        ],
+        "description": "Everybody's Awake Somewhere by Dorado Project: track 4 of The City Won't Switch Off, an electronic album available on Spotify. Behind separate windows, strangers share the same wakeful hour without knowing one another.",
         "story": "Behind separate windows, strangers share the same wakeful hour without knowing one another.",
         "creativeDirection": "Warm piano and background vocal textures shape a human, connected chapter, leaving space for short spoken reflections.",
         "scene": "Behind separate windows, strangers share the same wakeful hour without knowing one another.",
@@ -659,7 +713,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Everybody's Awake Somewhere — Track 4 | Dorado Project",
         "duration": "PT4M39.2S",
-        "durationLabel": "4:39"
+        "durationLabel": "4:39",
+        "spotify": "https://open.spotify.com/track/00gFUDSUhmjKT7z5PjTXuL"
       },
       {
         "position": 5,
@@ -667,8 +722,11 @@
         "slug": "static-in-my-blood",
         "language": "en",
         "theme": "Progressive house / Acid house",
-      "genre": ["Progressive house", "Acid house"],
-        "description": "Static in My Blood by Dorado Project: track 5 of The City Won't Switch Off, an electronic album awaiting release. Restlessness becomes an electrical current running through the night.",
+        "genre": [
+          "Progressive house",
+          "Acid house"
+        ],
+        "description": "Static in My Blood by Dorado Project: track 5 of The City Won't Switch Off, an electronic album available on Spotify. Restlessness becomes an electrical current running through the night.",
         "story": "Restlessness becomes an electrical current running through the night.",
         "creativeDirection": "The darkest club-focused brief centres on rolling drums, analog acid movement and a stripped-back passage built around a pulse-like low end.",
         "scene": "Restlessness becomes an electrical current running through the night.",
@@ -677,7 +735,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Static in My Blood — Track 5 | Dorado Project",
         "duration": "PT4M48.2S",
-        "durationLabel": "4:48"
+        "durationLabel": "4:48",
+        "spotify": "https://open.spotify.com/track/56gvrOHoSrQpc30M8ARqs2"
       },
       {
         "position": 6,
@@ -685,8 +744,11 @@
         "slug": "the-room-behind-the-noise",
         "language": "en",
         "theme": "Downtempo / Dub house",
-      "genre": ["Downtempo", "Dub house"],
-        "description": "The Room Behind the Noise by Dorado Project: track 6 of The City Won't Switch Off, an electronic album awaiting release. A quiet room above a busy street offers a place to hear the thoughts hidden by the day.",
+        "genre": [
+          "Downtempo",
+          "Dub house"
+        ],
+        "description": "The Room Behind the Noise by Dorado Project: track 6 of The City Won't Switch Off, an electronic album available on Spotify. A quiet room above a busy street offers a place to hear the thoughts hidden by the day.",
         "story": "A quiet room above a busy street offers a place to hear the thoughts hidden by the day.",
         "creativeDirection": "A slower trip-hop opening, Rhodes and dub space gradually develop into a straight dance groove. The intended contrast is intimate and spacious.",
         "scene": "A quiet room above a busy street offers a place to hear the thoughts hidden by the day.",
@@ -695,7 +757,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "The Room Behind the Noise — Track 6 | Dorado Project",
         "duration": "PT4M37.92S",
-        "durationLabel": "4:37"
+        "durationLabel": "4:37",
+        "spotify": "https://open.spotify.com/track/5frIJOzPl3CEvQGWd1x0tQ"
       },
       {
         "position": 7,
@@ -703,8 +766,10 @@
         "slug": "nothing-left-to-say-tonight",
         "language": "en",
         "theme": "Melodic progressive house",
-      "genre": ["Melodic progressive house"],
-        "description": "Nothing Left to Say Tonight by Dorado Project: track 7 of The City Won't Switch Off, an electronic album awaiting release. An empty chair and an unfinished conversation leave room for a reflective journey with sparse spoken words.",
+        "genre": [
+          "Melodic progressive house"
+        ],
+        "description": "Nothing Left to Say Tonight by Dorado Project: track 7 of The City Won't Switch Off, an electronic album available on Spotify. An empty chair and an unfinished conversation leave room for a reflective journey with sparse spoken words.",
         "story": "An empty chair and an unfinished conversation leave room for a reflective journey with sparse spoken words.",
         "creativeDirection": "The largely instrumental brief passes a melancholic melodic idea between guitar textures, piano and synthesizer over a firm bassline.",
         "scene": "An empty chair and an unfinished conversation leave room for a reflective journey with sparse spoken words.",
@@ -713,7 +778,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Nothing Left to Say Tonight — Track 7 | Dorado Project",
         "duration": "PT4M37.237S",
-        "durationLabel": "4:37"
+        "durationLabel": "4:37",
+        "spotify": "https://open.spotify.com/track/68w53WKdO6TMnAXeh6JN3Y"
       },
       {
         "position": 8,
@@ -721,8 +787,11 @@
         "slug": "borrowed-electricity",
         "language": "en",
         "theme": "Progressive house / Electronic",
-      "genre": ["Progressive house", "Electronic"],
-        "description": "Borrowed Electricity by Dorado Project: track 8 of The City Won't Switch Off, an electronic album awaiting release. For a few bright hours, a roomful of people share an energy none of them brought alone.",
+        "genre": [
+          "Progressive house",
+          "Electronic"
+        ],
+        "description": "Borrowed Electricity by Dorado Project: track 8 of The City Won't Switch Off, an electronic album available on Spotify. For a few bright hours, a roomful of people share an energy none of them brought alone.",
         "story": "For a few bright hours, a roomful of people share an energy none of them brought alone.",
         "creativeDirection": "The intended album peak develops lively bass, hand percussion and expansive synth harmony into two distinct climaxes.",
         "scene": "For a few bright hours, a roomful of people share an energy none of them brought alone.",
@@ -731,7 +800,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Borrowed Electricity — Track 8 | Dorado Project",
         "duration": "PT4M33.36S",
-        "durationLabel": "4:33"
+        "durationLabel": "4:33",
+        "spotify": "https://open.spotify.com/track/5Qq9hcAwMOEWP9GmrhgvPI"
       },
       {
         "position": 9,
@@ -739,8 +809,11 @@
         "slug": "before-the-first-train",
         "language": "en",
         "theme": "Deep house / Progressive house",
-      "genre": ["Deep house", "Progressive house"],
-        "description": "Before the First Train by Dorado Project: track 9 of The City Won't Switch Off, an electronic album awaiting release. The platform is still empty, but the first train of the morning is already on the board.",
+        "genre": [
+          "Deep house",
+          "Progressive house"
+        ],
+        "description": "Before the First Train by Dorado Project: track 9 of The City Won't Switch Off, an electronic album available on Spotify. The platform is still empty, but the first train of the morning is already on the board.",
         "story": "The platform is still empty, but the first train of the morning is already on the board.",
         "creativeDirection": "A restrained piano figure and deep groove support one recurring spoken thought. The rhythm is intended to break apart before finding a new shape.",
         "scene": "The platform is still empty, but the first train of the morning is already on the board.",
@@ -749,7 +822,8 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Before the First Train — Track 9 | Dorado Project",
         "duration": "PT4M33.2S",
-        "durationLabel": "4:33"
+        "durationLabel": "4:33",
+        "spotify": "https://open.spotify.com/track/078J7PUDR36XxyACTKxxNq"
       },
       {
         "position": 10,
@@ -757,8 +831,11 @@
         "slug": "daylight-finds-us",
         "language": "en",
         "theme": "Ambient house / Progressive house",
-      "genre": ["Ambient house", "Progressive house"],
-        "description": "Daylight Finds Us by Dorado Project: track 10 of The City Won't Switch Off, an electronic album awaiting release. The sky lightens above the rooftops while the last windows begin to go dark.",
+        "genre": [
+          "Ambient house",
+          "Progressive house"
+        ],
+        "description": "Daylight Finds Us by Dorado Project: track 10 of The City Won't Switch Off, an electronic album available on Spotify. The sky lightens above the rooftops while the last windows begin to go dark.",
         "story": "The sky lightens above the rooftops while the last windows begin to go dark.",
         "creativeDirection": "The closing brief grows from piano and ambient texture into a warm dance arrangement, then opens into a long instrumental farewell.",
         "scene": "The sky lightens above the rooftops while the last windows begin to go dark.",
@@ -767,13 +844,15 @@
         "artworkCaption": "This individual vector scene illustrates the track concept. The album has its own separate photographic cover.",
         "pageTitle": "Daylight Finds Us — Track 10 | Dorado Project",
         "duration": "PT4M14.4S",
-        "durationLabel": "4:14"
+        "durationLabel": "4:14",
+        "spotify": "https://open.spotify.com/track/4Mc3DS0tU8XOnyMgCMzh9I"
       }
     ],
     "duration": "PT46M30.757S",
     "durationLabel": "46:30",
     "hyperfollow": "https://distrokid.com/hyperfollow/doradoproject/the-city-wont-switch-off",
-    "showTrackDurations": true
+    "showTrackDurations": true,
+    "spotify": "https://open.spotify.com/album/0kLjYQ201rzeYQ143NTmno"
   },
   {
     "title": "Halloween: The Dark Forest",
