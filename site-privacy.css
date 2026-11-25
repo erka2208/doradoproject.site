@@ -1,0 +1,4 @@
+.privacy-note { max-width: 47ch; margin: 0; line-height: 1.55; overflow-wrap: anywhere }
+.privacy-note strong { color: var(--ink, #213f45); font-size: .9rem }
+.spotify-load { text-align: center; border: 1px solid var(--line); border-radius: 16px; padding: 26px 20px }
+.spotify-load p { margin: 0 0 14px }

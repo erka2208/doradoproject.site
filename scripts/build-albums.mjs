@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises';
+import { privacyFooter, privacyScript, privacyStyle } from './privacy-footer.mjs';
 
 const origin = 'https://doradoproject.com';
 const artist = { '@type': 'MusicGroup', '@id': `${origin}/#artist`, name: 'Dorado Project', url: `${origin}/` };
@@ -52,6 +53,7 @@ function page({ title, description, path, image, alt, type, graph, content }) {
   <link rel="stylesheet" href="/styles.css?v=6">
   <link rel="stylesheet" href="/release.css?v=1">
   <link rel="stylesheet" href="/album.css?v=4">
+  ${privacyStyle}
 </head>
 <body class="release-page album-page">
   <div class="grain" aria-hidden="true"></div>
@@ -60,7 +62,8 @@ function page({ title, description, path, image, alt, type, graph, content }) {
     <nav aria-label="Primary navigation"><a class="notranslate" translate="no" href="/#releases">Releases</a><a href="/#albums">Albums</a><a href="/halloween.html">Halloween</a><a href="/#about">About</a></nav>
   </header>
   <main class="release-main">${content}</main>
-  <footer><span>© Dorado Project</span><a href="/">doradoproject.com</a></footer>
+  <footer><span>© Dorado Project</span>${privacyFooter()}<a href="/">doradoproject.com</a></footer>
+  ${privacyScript}
 </body>
 </html>
 `;
