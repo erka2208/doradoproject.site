@@ -1415,9 +1415,9 @@
       "de",
       "pt"
     ],
-    "status": "Submitted to DistroKid",
-    "statusNote": "Submitted to DistroKid. Processing and delivery to streaming platforms are underway. Spotify links will appear after the exact release is confirmed live.",
-    "trackStatusNote": "Submitted to DistroKid as part of FOREVER ON FM. The album is processing for delivery to streaming platforms. A Spotify link will appear after this exact recording is confirmed live.",
+    "status": "Now on Spotify",
+    "statusNote": "Listen to the album and its full tracklist on Spotify.",
+    "trackStatusNote": "Listen to the recording on Spotify.",
     "pageTitle": "FOREVER ON FM — 20 Original 80s-Inspired Songs | Dorado Project",
     "metaDescription": "Discover FOREVER ON FM by Dorado Project: 20 original 1980s-inspired songs, four languages, warm radio variety and the complete album story and tracklist.",
     "storyTitle": "Twenty stations, one shared frequency",
@@ -1441,7 +1441,8 @@
         "scene": "A forgotten strip of photo-booth portraits brings old friends back together for a new adventure.",
         "image": "assets/albums/forever-on-fm/photograph-in-motion.webp",
         "imageAlt": "Typographic sleeve illustration for Photograph in Motion, with its track number 01 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Photograph in Motion, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Photograph in Motion, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/4YJYNYixkJBYVSGWy4QHLj"
       },
       {
         "position": 2,
@@ -1456,7 +1457,8 @@
         "scene": "A party rumour grows more elaborate each time someone tries to correct it.",
         "image": "assets/albums/forever-on-fm/small-talk-big-trouble.webp",
         "imageAlt": "Typographic sleeve illustration for Small Talk, Big Trouble, with its track number 02 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Small Talk, Big Trouble, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Small Talk, Big Trouble, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/40uwtM4Tagxk8E5CvDbvF8"
       },
       {
         "position": 3,
@@ -1471,7 +1473,8 @@
         "scene": "Friends take a morning ferry and leave room for an unplanned new beginning.",
         "image": "assets/albums/forever-on-fm/the-morning-ferry.webp",
         "imageAlt": "Typographic sleeve illustration for The Morning Ferry, with its track number 03 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for The Morning Ferry, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for The Morning Ferry, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/4Yqgfo3SItpNeuwOd3tAXZ"
       },
       {
         "position": 4,
@@ -1486,7 +1489,8 @@
         "scene": "A night watchperson notices the lit windows of other homes before making time for a life of their own.",
         "image": "assets/albums/forever-on-fm/les-fenetres-allumees.webp",
         "imageAlt": "Typographic sleeve illustration for Les fenêtres allumées, with its track number 04 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Les fenêtres allumées, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Les fenêtres allumées, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/0Vyad8mYw2FXfKog9w1r2y"
       },
       {
         "position": 5,
@@ -1501,7 +1505,8 @@
         "scene": "After the working week, friends build a small neighbourhood stage and celebrate what they have made.",
         "image": "assets/albums/forever-on-fm/saturday-pays-in-gold.webp",
         "imageAlt": "Typographic sleeve illustration for Saturday Pays in Gold, with its track number 05 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Saturday Pays in Gold, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Saturday Pays in Gold, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/0d313DAwDcK175LuMZSf0J"
       },
       {
         "position": 6,
@@ -1516,7 +1521,8 @@
         "scene": "An honest conversation in a closed cafe makes room for two people to imagine their future.",
         "image": "assets/albums/forever-on-fm/a-table-for-tomorrow.webp",
         "imageAlt": "Typographic sleeve illustration for A Table for Tomorrow, with its track number 06 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for A Table for Tomorrow, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for A Table for Tomorrow, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/2zFQWCTnNg442sJkwMyjTM"
       },
       {
         "position": 7,
@@ -1531,7 +1537,8 @@
         "scene": "A hesitant dancer steps away from the wall and finds freedom in moving without permission.",
         "image": "assets/albums/forever-on-fm/permission-to-move.webp",
         "imageAlt": "Typographic sleeve illustration for Permission to Move, with its track number 07 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Permission to Move, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Permission to Move, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/1tHtG0ZgXkbHHBwGss7Ers"
       },
       {
         "position": 8,
@@ -1546,7 +1553,8 @@
         "scene": "Small contributions from different neighbours grow into a shared street celebration.",
         "image": "assets/albums/forever-on-fm/everybody-brings-a-little-light.webp",
         "imageAlt": "Typographic sleeve illustration for Everybody Brings a Little Light, with its track number 08 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Everybody Brings a Little Light, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Everybody Brings a Little Light, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/1R3kUIwLHPGaaxhoJzFapE"
       },
       {
         "position": 9,
@@ -1561,7 +1569,8 @@
         "scene": "An adult child returns to the family home after a quarrel and hopes for a chance to begin again.",
         "image": "assets/albums/forever-on-fm/leave-the-porch-light-blue.webp",
         "imageAlt": "Typographic sleeve illustration for Leave the Porch Light Blue, with its track number 09 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Leave the Porch Light Blue, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Leave the Porch Light Blue, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/1yqswgFj9x5r0Rygihdgg9"
       },
       {
         "position": 10,
@@ -1576,7 +1585,8 @@
         "scene": "An expected farewell turns out to be a surprise celebration of a new chapter.",
         "image": "assets/albums/forever-on-fm/dressed-for-the-wrong-goodbye.webp",
         "imageAlt": "Typographic sleeve illustration for Dressed for the Wrong Goodbye, with its track number 10 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Dressed for the Wrong Goodbye, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Dressed for the Wrong Goodbye, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/55lCrkSe37qHc9fKzi5NAL"
       },
       {
         "position": 11,
@@ -1591,7 +1601,8 @@
         "scene": "A physical key found outside a door starts a conversation with a neighbour who has long been overlooked.",
         "image": "assets/albums/forever-on-fm/der-fremde-schlussel.webp",
         "imageAlt": "Typographic sleeve illustration for Der fremde Schlüssel, with its track number 11 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Der fremde Schlüssel, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Der fremde Schlüssel, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/1pXkQSJ2IzhZOoAogcvnIJ"
       },
       {
         "position": 12,
@@ -1606,7 +1617,8 @@
         "scene": "A carefully polished social mask gives way to an ordinary, honest conversation.",
         "image": "assets/albums/forever-on-fm/the-velvet-alibi.webp",
         "imageAlt": "Typographic sleeve illustration for The Velvet Alibi, with its track number 12 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for The Velvet Alibi, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for The Velvet Alibi, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/6aZTyJm2Id1JacWQWgObSM"
       },
       {
         "position": 13,
@@ -1621,7 +1633,8 @@
         "scene": "During a power cut, neighbours share a meal on the stairs and turn an interruption into company.",
         "image": "assets/albums/forever-on-fm/sunday-on-the-stairs.webp",
         "imageAlt": "Typographic sleeve illustration for Sunday on the Stairs, with its track number 13 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Sunday on the Stairs, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Sunday on the Stairs, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/1ohq5EIPSShRxY9nOSlPTw"
       },
       {
         "position": 14,
@@ -1636,7 +1649,8 @@
         "scene": "Mismatched plates, a borrowed chair and a pot of paint help two people turn a rented flat into a shared home.",
         "image": "assets/albums/forever-on-fm/walls-we-can-write-on.webp",
         "imageAlt": "Typographic sleeve illustration for Walls We Can Write On, with its track number 14 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Walls We Can Write On, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Walls We Can Write On, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/04WRVnKFwEeu5Db4SLzFSD"
       },
       {
         "position": 15,
@@ -1651,7 +1665,8 @@
         "scene": "Overworked friends leave one evening unscheduled and make room for music and each other.",
         "image": "assets/albums/forever-on-fm/make-room-for-the-rhythm.webp",
         "imageAlt": "Typographic sleeve illustration for Make Room for the Rhythm, with its track number 15 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Make Room for the Rhythm, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Make Room for the Rhythm, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/78WWYHifOXcDs9E9hxz8Kn"
       },
       {
         "position": 16,
@@ -1666,7 +1681,8 @@
         "scene": "A missed appointment leads to an unexpected opportunity at a community theatre.",
         "image": "assets/albums/forever-on-fm/lucky-on-the-corner.webp",
         "imageAlt": "Typographic sleeve illustration for Lucky on the Corner, with its track number 16 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Lucky on the Corner, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Lucky on the Corner, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/6OOXJHKpMxxctcOv0QTp0A"
       },
       {
         "position": 17,
@@ -1681,7 +1697,8 @@
         "scene": "A bus driver sees the working lives and quiet acts of kindness that most of the city sleeps through.",
         "image": "assets/albums/forever-on-fm/the-night-bus-knows.webp",
         "imageAlt": "Typographic sleeve illustration for The Night Bus Knows, with its track number 17 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for The Night Bus Knows, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for The Night Bus Knows, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/5GBpBJRRHLMpCU3ZgIg524"
       },
       {
         "position": 18,
@@ -1696,7 +1713,8 @@
         "scene": "Two people promise to meet again when the tide returns, keeping their connection across a stretch of time.",
         "image": "assets/albums/forever-on-fm/quando-a-mare-voltar.webp",
         "imageAlt": "Typographic sleeve illustration for Quando a maré voltar, with its track number 18 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Quando a maré voltar, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Quando a maré voltar, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/4RnuNupWBnRB1DZYXdMMNp"
       },
       {
         "position": 19,
@@ -1711,7 +1729,8 @@
         "scene": "A street becomes greener through small shared actions that its residents can actually carry out.",
         "image": "assets/albums/forever-on-fm/small-enough-to-save.webp",
         "imageAlt": "Typographic sleeve illustration for Small Enough to Save, with its track number 19 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for Small Enough to Save, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for Small Enough to Save, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/0AIQAGDKQ6Y8V4XJw3dDE6"
       },
       {
         "position": 20,
@@ -1726,9 +1745,11 @@
         "scene": "Old friends repair storm damage together and find a way to say what they have left unsaid.",
         "image": "assets/albums/forever-on-fm/what-the-weather-couldn-t-take.webp",
         "imageAlt": "Typographic sleeve illustration for What the Weather Couldn't Take, with its track number 20 and a miniature of the FOREVER ON FM album cover.",
-        "artworkCaption": "An individual typographic sleeve illustration for What the Weather Couldn't Take, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity."
+        "artworkCaption": "An individual typographic sleeve illustration for What the Weather Couldn't Take, based on the FOREVER ON FM album artwork. It is an artistic interpretation of the track identity.",
+        "spotify": "https://open.spotify.com/track/1oSQy94mL332HnAGFVgJB3"
       }
-    ]
+    ],
+    "spotify": "https://open.spotify.com/album/0KL3ABhEigEdJpyM1mV60R"
   },
   {
     "title": "Current Leak",
@@ -1749,9 +1770,9 @@
       "en"
     ],
     "durationLabel": "32 min",
-    "status": "Submitted to DistroKid",
-    "statusNote": "DistroKid has received the album for distribution. A direct Spotify link will appear once the album is confirmed live.",
-    "trackStatusNote": "DistroKid has received this track as part of Current Leak. A direct Spotify link will appear once the recording is confirmed live.",
+    "status": "Now on Spotify",
+    "statusNote": "Listen to the album and its full tracklist on Spotify.",
+    "trackStatusNote": "Listen to the recording on Spotify.",
     "pageTitle": "Current Leak — Industrial Big Beat Album | Dorado Project",
     "metaDescription": "Explore Current Leak by Dorado Project: nine tracks of industrial big beat, rave-punk, dub and jungle, with the complete running order and yellow loudspeaker cover.",
     "storyTitle": "From the last bus to first light",
@@ -1775,7 +1796,8 @@
         "image": "assets/albums/current-leak/meter-teeth.webp",
         "imageAlt": "Meter Teeth track sleeve, number 01, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Meter Teeth, built around the Current Leak album artwork.",
-        "duration": "PT3M32S"
+        "duration": "PT3M32S",
+        "spotify": "https://open.spotify.com/track/0Fk5yobe7DaVABdIeZZu1l"
       },
       {
         "position": 2,
@@ -1791,7 +1813,8 @@
         "image": "assets/albums/current-leak/one-stop-past.webp",
         "imageAlt": "One Stop Past track sleeve, number 02, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for One Stop Past, built around the Current Leak album artwork.",
-        "duration": "PT3M38S"
+        "duration": "PT3M38S",
+        "spotify": "https://open.spotify.com/track/35KIn97QOZs0hE2ZfuA5El"
       },
       {
         "position": 3,
@@ -1807,7 +1830,8 @@
         "image": "assets/albums/current-leak/brickwork-kicks-back.webp",
         "imageAlt": "Brickwork Kicks Back track sleeve, number 03, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Brickwork Kicks Back, built around the Current Leak album artwork.",
-        "duration": "PT3M12S"
+        "duration": "PT3M12S",
+        "spotify": "https://open.spotify.com/track/3jJvAnNeNAZWFLWvBg4KRM"
       },
       {
         "position": 4,
@@ -1823,7 +1847,8 @@
         "image": "assets/albums/current-leak/night-meter.webp",
         "imageAlt": "Night Meter track sleeve, number 04, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Night Meter, built around the Current Leak album artwork.",
-        "duration": "PT4M13S"
+        "duration": "PT4M13S",
+        "spotify": "https://open.spotify.com/track/2pc58ya5MEmMFshW3lzFzP"
       },
       {
         "position": 5,
@@ -1838,7 +1863,8 @@
         "image": "assets/albums/current-leak/relay-race.webp",
         "imageAlt": "Relay Race track sleeve, number 05, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Relay Race, built around the Current Leak album artwork.",
-        "duration": "PT3M24S"
+        "duration": "PT3M24S",
+        "spotify": "https://open.spotify.com/track/6vePrMhuhMItTlh1blnGMD"
       },
       {
         "position": 6,
@@ -1854,7 +1880,8 @@
         "image": "assets/albums/current-leak/floor-zero.webp",
         "imageAlt": "Floor Zero track sleeve, number 06, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Floor Zero, built around the Current Leak album artwork.",
-        "duration": "PT3M25S"
+        "duration": "PT3M25S",
+        "spotify": "https://open.spotify.com/track/3Hp7mijvebTjbLsvCljnzX"
       },
       {
         "position": 7,
@@ -1870,7 +1897,8 @@
         "image": "assets/albums/current-leak/platform-zero.webp",
         "imageAlt": "Platform Zero track sleeve, number 07, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Platform Zero, built around the Current Leak album artwork.",
-        "duration": "PT3M10S"
+        "duration": "PT3M10S",
+        "spotify": "https://open.spotify.com/track/1NQJo4JVkbuguJd7P7D1c7"
       },
       {
         "position": 8,
@@ -1886,7 +1914,8 @@
         "image": "assets/albums/current-leak/soft-fuse.webp",
         "imageAlt": "Soft Fuse track sleeve, number 08, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Soft Fuse, built around the Current Leak album artwork.",
-        "duration": "PT3M40S"
+        "duration": "PT3M40S",
+        "spotify": "https://open.spotify.com/track/2icSSf0nPhd4hfiYMGzfgy"
       },
       {
         "position": 9,
@@ -1902,7 +1931,233 @@
         "image": "assets/albums/current-leak/daylight-on-the-meter.webp",
         "imageAlt": "Daylight on the Meter track sleeve, number 09, beside the Current Leak cover showing yellow paint splashing inside a black speaker.",
         "artworkCaption": "Typographic track sleeve for Daylight on the Meter, built around the Current Leak album artwork.",
-        "duration": "PT3M47S"
+        "duration": "PT3M47S",
+        "spotify": "https://open.spotify.com/track/0MzPiAiMWGHgCzyHLB9FRj"
+      }
+    ],
+    "spotify": "https://open.spotify.com/album/5sVXg5Yn5IbXa3uZMnVzTv"
+  },
+  {
+    "title": "The Press Won",
+    "slug": "the-press-won",
+    "category": "industrial-big-beat",
+    "image": "assets/albums/the-press-won/cover.webp",
+    "imageAlt": "A black forging press bears down on a glowing steel billet on the cover of The Press Won.",
+    "description": "Twelve instrumentals built around industrial big beat, hard acid, drum & bass and breakcore, with prepared piano and pipe organ in the middle of the noise.",
+    "genre": [
+      "Electronic",
+      "Industrial big beat",
+      "Breakbeat",
+      "Hardcore"
+    ],
+    "genreLabel": "Industrial Big Beat / Hardcore Breaks / Electronic",
+    "cardGenre": "Industrial Big Beat / Hardcore Breaks",
+    "duration": "PT37M46S",
+    "durationLabel": "37:46",
+    "status": "Submitted to streaming services",
+    "statusNote": "DistroKid has processed the album and is delivering it to streaming services.",
+    "trackStatusNote": "This instrumental is part of The Press Won, currently being delivered to streaming services.",
+    "hyperfollow": "https://distrokid.com/hyperfollow/doradoproject/the-press-won",
+    "pageTitle": "The Press Won — Industrial Big Beat Album | Dorado Project",
+    "metaDescription": "The Press Won by Dorado Project runs from heavy funk breaks and hard acid to breakcore, with a prepared-piano concerto and a gabber pipe-organ fugue. Explore all twelve tracks.",
+    "storyTitle": "Under the forging press",
+    "story": [
+      "The Press Won starts with the swing of a funk break and heads towards the clipped edges of hardcore and breakcore. Steel hits, gauges and damaged bearings gave the tracks their imagery.",
+      "Bad Teeth Concerto was conceived around a prepared grand piano against an industrial kick. The Organ Failed Inspection puts a crooked pipe-organ fugue into a gabber arrangement. Between those two, the record drops through a half-time pressure test, disco-punk and techstep.",
+      "The sleeve catches a forging press at the instant a cold die meets the hot billet. The album was created with AI tools under the creative direction of Rutger Kussendrager."
+    ],
+    "tracks": [
+      {
+        "position": 1,
+        "title": "Cold Start Debt",
+        "slug": "cold-start-debt",
+        "genre": "Industrial big beat",
+        "theme": "Industrial big beat",
+        "description": "Cold Start Debt by Dorado Project, track 1 from The Press Won. Cold grease clings to a starter motor that has to turn once more.",
+        "story": "Cold grease clings to a starter motor that has to turn once more.",
+        "creativeDirection": "The opener was devised around a loping funk break, a steel strike and a dirty mono bass.",
+        "scene": "Cold grease clings to a starter motor that has to turn once more.",
+        "image": "assets/albums/the-press-won/cold-start-debt.webp",
+        "imageAlt": "A greasy starter motor with a large flywheel",
+        "artworkCaption": "Artwork for Cold Start Debt from The Press Won.",
+        "duration": "PT3M19S",
+        "durationLabel": "3:19"
+      },
+      {
+        "position": 2,
+        "title": "Shear Pin",
+        "slug": "shear-pin",
+        "genre": "Hardcore breaks",
+        "theme": "Hardcore breaks",
+        "description": "Shear Pin by Dorado Project, track 2 from The Press Won. A steel pin takes the load until it snaps across the middle.",
+        "story": "A steel pin takes the load until it snaps across the middle.",
+        "creativeDirection": "The brief pitted a four-hit drum figure against a heavy bass, with a half-time turn before the last break.",
+        "scene": "A steel pin takes the load until it snaps across the middle.",
+        "image": "assets/albums/the-press-won/shear-pin.webp",
+        "imageAlt": "A snapped steel pin with rough edges",
+        "artworkCaption": "Artwork for Shear Pin from The Press Won.",
+        "duration": "PT3M28S",
+        "durationLabel": "3:28"
+      },
+      {
+        "position": 3,
+        "title": "Redline Is a Suggestion",
+        "slug": "redline-is-a-suggestion",
+        "genre": "Hard acid techno",
+        "theme": "Hard acid techno",
+        "description": "Redline Is a Suggestion by Dorado Project, track 3 from The Press Won. A red needle reaches the end of the gauge while the machine keeps running.",
+        "story": "A red needle reaches the end of the gauge while the machine keeps running.",
+        "creativeDirection": "Two competing 303 figures and a straight kick were the starting point. The second acid line was intended to take over after a bar of silence.",
+        "scene": "A red needle reaches the end of the gauge while the machine keeps running.",
+        "image": "assets/albums/the-press-won/redline-is-a-suggestion.webp",
+        "imageAlt": "A red needle on a worn industrial gauge",
+        "artworkCaption": "Artwork for Redline Is a Suggestion from The Press Won.",
+        "duration": "PT3M32S",
+        "durationLabel": "3:32"
+      },
+      {
+        "position": 4,
+        "title": "Bad Teeth Concerto",
+        "slug": "bad-teeth-concerto",
+        "genre": "Industrial techno / Prepared piano",
+        "theme": "Industrial techno / Prepared piano",
+        "description": "Bad Teeth Concerto by Dorado Project, track 4 from The Press Won. The grand piano looks as though somebody has been using it as a workbench.",
+        "story": "The grand piano looks as though somebody has been using it as a workbench.",
+        "creativeDirection": "The arrangement was conceived as a face-off between hammered piano octaves and an industrial kick, with uneven piano phrases over a fixed pulse.",
+        "scene": "The grand piano looks as though somebody has been using it as a workbench.",
+        "image": "assets/albums/the-press-won/bad-teeth-concerto.webp",
+        "imageAlt": "Scuffed grand piano keys and steel flakes",
+        "artworkCaption": "Artwork for Bad Teeth Concerto from The Press Won.",
+        "duration": "PT2M2S",
+        "durationLabel": "2:02"
+      },
+      {
+        "position": 5,
+        "title": "Pressure Test",
+        "slug": "pressure-test",
+        "genre": "Industrial half-time",
+        "theme": "Industrial half-time",
+        "description": "Pressure Test by Dorado Project, track 5 from The Press Won. A hydraulic cylinder takes its full load on a steel test bed.",
+        "story": "A hydraulic cylinder takes its full load on a steel test bed.",
+        "creativeDirection": "The brief slows the pulse and leaves room around the toms and the feedback, then calls for a faster tom pattern against the same weight.",
+        "scene": "A hydraulic cylinder takes its full load on a steel test bed.",
+        "image": "assets/albums/the-press-won/pressure-test.webp",
+        "imageAlt": "A hydraulic cylinder on a steel test bed",
+        "artworkCaption": "Artwork for Pressure Test from The Press Won.",
+        "duration": "PT4M3S",
+        "durationLabel": "4:03"
+      },
+      {
+        "position": 6,
+        "title": "Forklift Disco",
+        "slug": "forklift-disco",
+        "genre": "Disco-punk",
+        "theme": "Disco-punk",
+        "description": "Forklift Disco by Dorado Project, track 6 from The Press Won. A warehouse wheel picks up the amber glint of a disco light.",
+        "story": "A warehouse wheel picks up the amber glint of a disco light.",
+        "creativeDirection": "A picked bass-guitar figure and open hats give the track its disco starting point. The kick was designed to push against the bass line.",
+        "scene": "A warehouse wheel picks up the amber glint of a disco light.",
+        "image": "assets/albums/the-press-won/forklift-disco.webp",
+        "imageAlt": "An industrial forklift wheel under a glint of amber light",
+        "artworkCaption": "Artwork for Forklift Disco from The Press Won.",
+        "duration": "PT2M24S",
+        "durationLabel": "2:24"
+      },
+      {
+        "position": 7,
+        "title": "Bad Bearing",
+        "slug": "bad-bearing",
+        "genre": "Techstep / Drum & bass",
+        "theme": "Techstep / Drum & bass",
+        "description": "Bad Bearing by Dorado Project, track 7 from The Press Won. A single damaged roller throws the whole bearing out of true.",
+        "story": "A single damaged roller throws the whole bearing out of true.",
+        "creativeDirection": "The track brief pairs clipped drum edits with a two-note reese bass and a scraped metallic ride.",
+        "scene": "A single damaged roller throws the whole bearing out of true.",
+        "image": "assets/albums/the-press-won/bad-bearing.webp",
+        "imageAlt": "A damaged roller bearing on a dark bench",
+        "artworkCaption": "Artwork for Bad Bearing from The Press Won.",
+        "duration": "PT3M59S",
+        "durationLabel": "3:59"
+      },
+      {
+        "position": 8,
+        "title": "The Organ Failed Inspection",
+        "slug": "the-organ-failed-inspection",
+        "genre": "Gabber / Pipe organ",
+        "theme": "Gabber / Pipe organ",
+        "description": "The Organ Failed Inspection by Dorado Project, track 8 from The Press Won. Rows of church organ pipes tower over a floor that was never built for gabber.",
+        "story": "Rows of church organ pipes tower over a floor that was never built for gabber.",
+        "creativeDirection": "The starting point was a crooked three-voice pipe-organ fugue and a hard gabber kick, with the two parts pulling against one another rhythmically.",
+        "scene": "Rows of church organ pipes tower over a floor that was never built for gabber.",
+        "image": "assets/albums/the-press-won/the-organ-failed-inspection.webp",
+        "imageAlt": "Church organ pipes lit from one side in orange",
+        "artworkCaption": "Artwork for The Organ Failed Inspection from The Press Won.",
+        "duration": "PT3M13S",
+        "durationLabel": "3:13"
+      },
+      {
+        "position": 9,
+        "title": "You Can Keep the Sparks",
+        "slug": "you-can-keep-the-sparks",
+        "genre": "Dance-punk breaks",
+        "theme": "Dance-punk breaks",
+        "description": "You Can Keep the Sparks by Dorado Project, track 9 from The Press Won. A grinding wheel sends sparks flying off the edge of the workbench.",
+        "story": "A grinding wheel sends sparks flying off the edge of the workbench.",
+        "creativeDirection": "The arrangement was conceived as garage drums against clipped guitar attacks, with a drum break and a hard tape cut at the end.",
+        "scene": "A grinding wheel sends sparks flying off the edge of the workbench.",
+        "image": "assets/albums/the-press-won/you-can-keep-the-sparks.webp",
+        "imageAlt": "A grinding disc throwing diagonal orange sparks",
+        "artworkCaption": "Artwork for You Can Keep the Sparks from The Press Won.",
+        "duration": "PT2M45S",
+        "durationLabel": "2:45"
+      },
+      {
+        "position": 10,
+        "title": "Dog Teeth",
+        "slug": "dog-teeth",
+        "genre": "Dubstep",
+        "theme": "Dubstep",
+        "description": "Dog Teeth by Dorado Project, track 10 from The Press Won. Two rows of gear teeth catch the light as they mesh.",
+        "story": "Two rows of gear teeth catch the light as they mesh.",
+        "creativeDirection": "The production brief used early dubstep space, a half-time snare and a hollow square sub. A bowed bass harmonic was the only lead voice.",
+        "scene": "Two rows of gear teeth catch the light as they mesh.",
+        "image": "assets/albums/the-press-won/dog-teeth.webp",
+        "imageAlt": "Interlocking sharp steel gear teeth",
+        "artworkCaption": "Artwork for Dog Teeth from The Press Won.",
+        "duration": "PT3M3S",
+        "durationLabel": "3:03"
+      },
+      {
+        "position": 11,
+        "title": "No Clean Edges",
+        "slug": "no-clean-edges",
+        "genre": "Breakcore",
+        "theme": "Breakcore",
+        "description": "No Clean Edges by Dorado Project, track 11 from The Press Won. A sheet of steel comes off the cutter with a ragged edge.",
+        "story": "A sheet of steel comes off the cutter with a ragged edge.",
+        "creativeDirection": "Two distinct break patterns, missing cymbal hits and short crushed bass accents are the ideas behind the arrangement.",
+        "scene": "A sheet of steel comes off the cutter with a ragged edge.",
+        "image": "assets/albums/the-press-won/no-clean-edges.webp",
+        "imageAlt": "A jagged freshly cut sheet-metal edge",
+        "artworkCaption": "Artwork for No Clean Edges from The Press Won.",
+        "duration": "PT2M34S",
+        "durationLabel": "2:34"
+      },
+      {
+        "position": 12,
+        "title": "The Press Won",
+        "slug": "the-press-won",
+        "genre": "Industrial big beat / Hardcore",
+        "theme": "Industrial big beat / Hardcore",
+        "description": "The Press Won by Dorado Project, track 12 from The Press Won. A forging die closes and the billet gives way along one white-hot line.",
+        "story": "A forging die closes and the billet gives way along one white-hot line.",
+        "creativeDirection": "The closing brief brings back three blows on a steel plate and asks broken kicks and hardcore pulse to interlock in the final stretch.",
+        "scene": "A forging die closes and the billet gives way along one white-hot line.",
+        "image": "assets/albums/the-press-won/the-press-won.webp",
+        "imageAlt": "A black forging press flattening a glowing steel billet",
+        "artworkCaption": "Artwork for The Press Won from The Press Won.",
+        "duration": "PT3M19S",
+        "durationLabel": "3:19"
       }
     ]
   }
