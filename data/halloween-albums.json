@@ -2,6 +2,7 @@
   {
     "title": "Frequency Flashback",
     "slug": "frequency-flashback",
+    "catalogueDate": "2026-11-02",
     "category": "pop-compilation",
     "image": "assets/albums/frequency-flashback/cover.webp",
     "imageAlt": "Frequency Flashback by Dorado Project: a luminous silver record, colourful equalizer bars and neon trails above a reflective surface",
@@ -459,6 +460,7 @@
   {
     "title": "The Kitchen Clock Is Wrong",
     "slug": "the-kitchen-clock-is-wrong",
+    "catalogueDate": "2026-11-01",
     "category": "progressive-rock",
     "image": "assets/albums/kitchen-clock/cover.webp",
     "imageAlt": "The Kitchen Clock Is Wrong by Dorado Project: two cups and wooden chairs in a kitchen opening onto an empty railway platform, with a wall clock and blue coat",
@@ -604,6 +606,7 @@
   {
     "title": "The City Won't Switch Off",
     "slug": "the-city-wont-switch-off",
+    "catalogueDate": "2026-11-10",
     "category": "progressive-house",
     "image": "assets/albums/the-city-wont-switch-off/cover.webp",
     "imageAlt": "The City Won't Switch Off by Dorado Project: an amber-lit open door in a rainy midnight city street",
@@ -1396,6 +1399,7 @@
   {
     "title": "FOREVER ON FM",
     "slug": "forever-on-fm",
+    "catalogueDate": "2026-11-21",
     "category": "eighties-pop",
     "image": "assets/albums/forever-on-fm/cover.webp",
     "imageAlt": "FOREVER ON FM by Dorado Project: a chrome FM tuning dial above a sunlit turquoise coast, cream arches and a red sunset disc.",
@@ -1754,6 +1758,7 @@
   {
     "title": "Current Leak",
     "slug": "current-leak",
+    "catalogueDate": "2026-11-21",
     "category": "big-beat",
     "image": "assets/albums/current-leak/cover.webp",
     "imageAlt": "Current Leak by Dorado Project: yellow paint bursts outwards inside a scuffed black loudspeaker on wet asphalt.",
@@ -1940,6 +1945,7 @@
   {
     "title": "The Press Won",
     "slug": "the-press-won",
+    "catalogueDate": "2026-11-27",
     "category": "industrial-big-beat",
     "image": "assets/albums/the-press-won/cover.webp",
     "imageAlt": "A black forging press bears down on a glowing steel billet on the cover of The Press Won.",
